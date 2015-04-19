@@ -1,7 +1,7 @@
 \documentclass[10pt,conference,]{IEEEtran}
 \usepackage{graphicx}
 \begin{document}
-\title{Spatial Rerank-based Bag of Words Model}
+\title{Spatial Rerank-based Bag-of-Words Model}
 
 \author{\IEEEauthorblockN{Thuyen V. Phan}
 \IEEEauthorblockA{Advanced Program in Computer Science\\
@@ -20,7 +20,7 @@ Email: tmbao@apcs.vn}
 
 
 \begin{abstract}
-The popularity of many social network sites such as Facebook, Twitter, and YouTube… creates a huge demand of managing and querying visual data from billions of images. Searching by text cannot describe the information as effective as by images but it is more complicated to search by images due to the changes of camera angles or lighting conditions. To address this problem, the authors conduct a comparison of the retrieval quality between a standard Bag-of-Words model and one with spatial reranking using RANSAC. Our experimental results on Oxford Building 5K Dataset show that spatial reranking improves the mean Average Precision of Bag of Words model from 0.708 up to 0.742. The authors view this work as a promising step to further improve the performance of different visual search systems using the spatial relations between the images.
+The popularity of many social network sites such as Facebook, Twitter, and YouTube… creates a huge demand of managing and querying visual data from billions of images. Searching by text cannot describe the information as effective as by images but it is more complicated to search by images due to the changes of camera angles or lighting conditions. To address this problem, the authors conduct a comparison of the retrieval quality between a standard Bag-of-Words model and one with spatial reranking using RANSAC. Our experimental results on Oxford Building 5K Dataset show that spatial reranking improves the mean Average Precision of Bag-of-Words model from 0.708 up to 0.742. The authors view this work as a promising step to further improve the performance of different visual search systems using the spatial relations between the images.
 \end{abstract}
 
 \IEEEpeerreviewmaketitle
@@ -59,6 +59,50 @@ Moreover, some words are less informative than others since those words appear i
 When applying BoW to image retrieval, a major obstacle is the fact that text documents are naturally broken into words by spaces, dots, hyphens, or commas. In contrast, there is no such separator in images. Therefore, the concept of ``visual word'' is introduced where each visual word is represented as a cluster obtained using k-means on the local descriptor vectors \cite{3}.
 
 The bigger the vocabulary size is, the more different the visual words are. Hence, the vocabulary helps us distinguish the images more effectively. Nonetheless, with bigger vocabulary size, slightly different descriptors can be assigned to different visual words thus not contributing to the similarity of the respective images and causing a drop in performance examined in \cite{5, 6, 7}. Philbin et al. \cite{7} suggests ``soft assign'' method where each descriptor is assigned to multiple nearest visual words instead of using ``hard assignment'', i.e only assign a local descriptor to only one nearest visual word. Despite its effectiveness, this method also significantly costs more storage and time.
+
+
+\subsection{Evaluation the performance of image retrieval system} \label{section:evaluation_ir_sys}
+
+\subsubsection{Test collection}
+Measuring ad-hoc information retrieval (especially image retrieval) effectiveness usually requires a test collection consisting of three things:
+
+\begin{itemize} \label{section:evaluation_ir_require}
+\item{An image collection}
+\item{A test suite of information needs, expressible as queries}
+\item{A set of relevance judgments, standardly a binary assessment of either relevant or nonrelevant for each query-document pair}
+\end{itemize}
+
+The authors decide to evaluate our Image Retrieval System by using the Oxford Building 5K Dataset which is reliable and satifies our requirements. The Oxford Building 5K Dataset consists of 5062 images collected from Flickr, has been manually annotated to generate a comprehensive ground truth for 11 differenent landmarks, each represented by 5 possible queries (55 queries in total).
+
+\subsubsection{Evaluation measures}
+Evaluation measures provide a way of quantifying retrieval effectiveness \cite{c2008, Croft:2009:SEI:1516224}. Together, the test collection and evaluation measure provide a simulation of the user of an information retrieval system \cite{journals/ires/CloughS13}. There are many measurements for evaluating ad-hoc retrieval systems:
+
+\begin{itemize} \label{section:evaluation_ir_measurements}
+\item{Set-based measures: We treats documents in the ranking as unique and ignores the ordering of results \cite{journals/ires/CloughS13}. Two simple measures developed early on were precision and recall. 
+    \begin{itemize}
+        \item{$P = \frac{\left|\{relavant\_retrieved\_documents\}\right|}{\left|\{all\_documents\}\right|}$}
+        \item{$R = \frac{\left|\{relavant\_retrieved\_documents\}\right|}{\left|\{relavant\_documents\}\right|}$}
+        \item{$AP = \sum\limits_{i \in \{I\}} \frac{precision}{\left|\{I\}\right|}$}
+        \item{$mAP = \sum\limits_{q \in \{Q\}} \frac{AP}{\left|\{Q\}\right|} $}
+
+        where 
+        \begin{itemize}
+        \item{$P$: precision}
+        \item{$R$: recall}
+        \item{$AP$: average precision}
+        \item{$mAP$: mean average precision}
+        \item{$I$: the set of indices of relavent documents in the rank-list}
+        \item{$Q$: the set of queries}
+
+        \end{itemize}
+    \end{itemize}
+}
+\item{Rank-based measures: The most commonly used measures are based on evaluating ranked retrieval results, where importance is placed, not only on obtaining the maximum number of relevant documents, but also for returning relevant documents higher in the ranked list \cite{journals/ires/CloughS13}. A common way to evaluate ranked outputs is to compute precision at various levels of recall (e.g., 0.0, 0.1, 0.2, ... 1.0), or at the rank positions of all the relevant documents and the scores averaged (referred to as average precision) \cite{journals/ires/CloughS13}. A further common measure is precision at a fixed rank position, an alternative measure called R-precision can be used: precision is measured at the rank position Rq \cite{journals/ires/CloughS13}.
+}
+\end{itemize}
+
+There is still others measures that have been developed to evaluate different information retrieval problems \cite{journals/ires/CloughS13} (e.g., mean reciprocal rank (MRR), S-recall, ...). In this paper, the authors use set-based measures to evaluate our retrieval system.
+
 
 \section{Method} \label{section:method}
 \subsection{Overview of an Image Retrieval System}

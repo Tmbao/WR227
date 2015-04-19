@@ -120,6 +120,23 @@ D.~Nister and H.~Stewenius, ``Scalable recognition with a vocabulary tree,'' in
 G.~Schindler, M.~Brown, , and R.~Szeliski, ``City-scale location recognition,''
   in \emph{Proc. CVPR}, 2007.
 
+\bibitem{c2008}
+C.~hristopher D.~.~Manning, P.~rabhakar Raghavan, and H.~inrich Schütze, ``-
+  {Introduction} to information retrieval,'' - c2008.
+
+\bibitem{Croft:2009:SEI:1516224}
+B.~Croft, D.~Metzler, and T.~Strohman, \emph{Search Engines: Information
+  Retrieval in Practice}, 1st~ed.\hskip 1em plus 0.5em minus 0.4em\relax USA:
+  Addison-Wesley Publishing Company, 2009.
+
+\bibitem{journals/ires/CloughS13}
+\BIBentryALTinterwordspacing
+P.~Clough and M.~Sanderson, ``Evaluating the performance of information
+  retrieval systems using test collections.'' \emph{Inf. Res.}, vol.~18, no.~2,
+  2013. [Online]. Available:
+  \url{http://dblp.uni-trier.de/db/journals/ires/ires18.html}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Mikolajczyk2004}
 K.~Mikolajczyk and C.~Schmid, ``\BIBforeignlanguage{English}{Scale \& affine
   invariant interest point detectors},''
