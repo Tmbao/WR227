@@ -72,7 +72,7 @@ Measuring ad-hoc information retrieval (especially image retrieval) effectivenes
 \item{A set of relevance judgments, standardly a binary assessment of either relevant or nonrelevant for each query-document pair}
 \end{itemize}
 
-The authors decide to evaluate our Image Retrieval System by using the Oxford Building 5K Dataset which is reliable and satifies our requirements. The Oxford Building 5K Dataset consists of 5062 images collected from Flickr, has been manually annotated to generate a comprehensive ground truth for 11 differenent landmarks, each represented by 5 possible queries (55 queries in total).
+The authors decide to evaluate our Image Retrieval System by using the Oxford Building 5K Dataset \cite{oxbuilding}. The Oxford Building 5K Dataset consists of 5062 images collected from Flickr, has been manually annotated to generate a comprehensive ground truth for 11 differenent landmarks, each represented by 5 possible queries (55 queries in total).
 
 \subsubsection{Evaluation measures}
 Evaluation measures provide a way of quantifying retrieval effectiveness \cite{c2008, Croft:2009:SEI:1516224}. Together, the test collection and evaluation measure provide a simulation of the user of an information retrieval system \cite{journals/ires/CloughS13}. There are many measurements for evaluating ad-hoc retrieval systems:
@@ -88,12 +88,12 @@ Evaluation measures provide a way of quantifying retrieval effectiveness \cite{c
         $R = \frac{\left|\{relavant\_retrieved\_documents\}\right|}{\left|\{relavant\_documents\}\right|}$}
         \item{Average Precision (AP) is average of P overall indices such that the returned document is relavant
 
-        $AP = \sum\limits_{i \in \{I\}} \frac{P}{\left|\{I\}\right|}$}
+        $AP = \sum\limits_{i \in I} \frac{P}{\left|I\right|}$}
 
         $I$: the set of indices of relavent documents in the ranked list
         \item{Mean Average Precision (mAP) is the average of AP overall queries
 
-        $mAP = \sum\limits_{q \in \{Q\}} \frac{AP}{\left|\{Q\}\right|} $
+        $mAP = \sum\limits_{q \in Q} \frac{AP}{\left|Q\right|} $
 
         $Q$: the set of queries}
 
@@ -113,7 +113,7 @@ There is still others measures that have been developed to evaluate different in
 
 As described in Figure \ref{fig:image_retrieval_system}, a typical Image Retrieval System consists of 2 main steps: Feature Extraction and Similarity Matching. We will explain how we do the Feature Extraction step in this section. In section \ref{section:similarity_extraction}, the authors focus on describing how we perform Similarity Matching with our implementation of BoW model.
 
-To extract features from images, the authors choose to use Hessian affine detector \cite{Mikolajczyk2004}. As we tested on Oxford Building 5K Dataset, there are typically 3,300 features for each image and a total about 16 millions of features for the whole dataset. Then, we compute the SIFT descriptors \cite{Lowe2004} of all the features and use these descriptors for the next steps.
+To extract features from images, the authors choose to use Hessian affine detector \cite{Mikolajczyk2004}. As we tested on Oxford Building 5K Dataset \cite{oxbuilding}, there are typically 3,300 features for each image and a total about 16 millions of features for the whole dataset. Then, we compute the SIFT descriptors \cite{Lowe2004} of all the features and use these descriptors for the next steps.
 
 \begin{figure}
     \centering
@@ -124,7 +124,7 @@ To extract features from images, the authors choose to use Hessian affine detect
 
 \subsection {Similarity Matching} \label{section:similarity_extraction}
 
-As showed in Figure \ref{fig:bow_model} typical BoW model used in image retrieval systems would consist of the following steps: Dictionary Building, Quantization and Retrieving the result. The 2 former steps are described in section \ref{section:dictionary_building} and section \ref{section:quanization}. The last step is our main focus in this paper and is discussed in section \ref{section:tfidf_weighting} and section \ref{section:spatial_rerank}.
+As showed in Figure \ref{fig:bow_model} typical BoW model used in image retrieval systems would consist of the following steps: Dictionary Building, Quantization and Retrieving the result. The 2 former steps are described in section \ref{section:dictionary_building} and section \ref{section:quantization}. The last step is our main focus in this paper and is discussed in section \ref{section:tfidf_weighting} and section \ref{section:spatial_rerank}.
 
 \begin{figure}
     \centering
@@ -135,7 +135,7 @@ As showed in Figure \ref{fig:bow_model} typical BoW model used in image retrieva
 
 \subsubsection{Dictionary Building} \label{section:dictionary_building}
 
-Generating the dictionary of visual words for such a huge amount descriptors is a big challenge. In order to overcome this obstacle, the authors use the approximate k-means (AKM) instead of the traditional exact k-means (KM). AKM is proposed by Philbin et al. \cite{2}, which reduce the majority amount of time taken by exact nearest neighbors computation by using an approximate method instead. Also, in \cite{2}, Philbin et al. shows that using 1M dictionary size would have the best performance on the Oxford Building 5K Dataset.
+Generating the dictionary of visual words for such a huge amount descriptors is a big challenge. In order to overcome this obstacle, the authors use the approximate k-means (AKM) instead of the traditional exact k-means (KM). AKM is proposed by Philbin et al. \cite{2}, which reduce the majority amount of time taken by exact nearest neighbors computation by using an approximate method instead. Also, in \cite{2}, Philbin et al. shows that using 1M dictionary size would have the best performance on the Oxford Building 5K Dataset \cite{oxbuilding}.
 
 \subsubsection{Quantization} \label{section:quantization}
 
