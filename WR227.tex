@@ -80,22 +80,26 @@ Evaluation measures provide a way of quantifying retrieval effectiveness \cite{c
 \begin{itemize} \label{section:evaluation_ir_measurements}
 \item{Set-based measures: We treats documents in the ranking as unique and ignores the ordering of results \cite{journals/ires/CloughS13}. Two simple measures developed early on were precision and recall. 
     \begin{itemize}
-        \item{$P = \frac{\left|\{relavant\_retrieved\_documents\}\right|}{\left|\{all\_documents\}\right|}$}
-        \item{$R = \frac{\left|\{relavant\_retrieved\_documents\}\right|}{\left|\{relavant\_documents\}\right|}$}
-        \item{$AP = \sum\limits_{i \in \{I\}} \frac{precision}{\left|\{I\}\right|}$}
-        \item{$mAP = \sum\limits_{q \in \{Q\}} \frac{AP}{\left|\{Q\}\right|} $}
+        \item{Precision (P) at a position in the ranked list
 
-        where 
-        \begin{itemize}
-        \item{$P$: precision}
-        \item{$R$: recall}
-        \item{$AP$: average precision}
-        \item{$mAP$: mean average precision}
-        \item{$I$: the set of indices of relavent documents in the rank-list}
-        \item{$Q$: the set of queries}
+        $P = \frac{\left|\{relavant\_retrieved\_documents\}\right|}{\left|\{all\_documents\}\right|}$}
+        \item{Recall (R) at a position in the ranked list
 
-        \end{itemize}
+        $R = \frac{\left|\{relavant\_retrieved\_documents\}\right|}{\left|\{relavant\_documents\}\right|}$}
+        \item{Average Precision (AP) is average of P overall indices such that the returned document is relavant
+
+        $AP = \sum\limits_{i \in \{I\}} \frac{P}{\left|\{I\}\right|}$}
+
+        $I$: the set of indices of relavent documents in the ranked list
+        \item{Mean Average Precision (mAP) is the average of AP overall queries
+
+        $mAP = \sum\limits_{q \in \{Q\}} \frac{AP}{\left|\{Q\}\right|} $
+
+        $Q$: the set of queries}
+
     \end{itemize}
+
+    By using mAP, we can determine how well a retrieval system is (the higher mAP is, the better retrieval system is).
 }
 \item{Rank-based measures: The most commonly used measures are based on evaluating ranked retrieval results, where importance is placed, not only on obtaining the maximum number of relevant documents, but also for returning relevant documents higher in the ranked list \cite{journals/ires/CloughS13}. A common way to evaluate ranked outputs is to compute precision at various levels of recall (e.g., 0.0, 0.1, 0.2, ... 1.0), or at the rank positions of all the relevant documents and the scores averaged (referred to as average precision) \cite{journals/ires/CloughS13}. A further common measure is precision at a fixed rank position, an alternative measure called R-precision can be used: precision is measured at the rank position Rq \cite{journals/ires/CloughS13}.
 }

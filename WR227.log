@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.20)  19 APR 2015 02:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.20)  19 APR 2015 10:23
 entering extended mode
 **C:/Users/MinhBao/Documents/GitHub/WR227/WR227.tex
 (C:/Users/MinhBao/Documents/GitHub/WR227/WR227.tex
@@ -191,21 +191,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ] [2]
-<ImageRetrievalSystem.pdf, id=18, 963.6pt x 542.025pt>
+<ImageRetrievalSystem.pdf, id=17, 963.6pt x 542.025pt>
 File: ImageRetrievalSystem.pdf Graphic file (type pdf)
 
 <use ImageRetrievalSystem.pdf>
-Package pdftex.def Info: ImageRetrievalSystem.pdf used on input line 116.
+Package pdftex.def Info: ImageRetrievalSystem.pdf used on input line 120.
 (pdftex.def)             Requested size: 216.81pt x 121.95035pt.
 
 
 LaTeX Warning: Reference `section:quanization' on page 3 undefined on input lin
-e 123.
+e 127.
 
-<process.pdf, id=19, 1445.4pt x 1084.05pt>
+<process.pdf, id=18, 1445.4pt x 1084.05pt>
 File: process.pdf Graphic file (type pdf)
  <use process.pdf>
-Package pdftex.def Info: process.pdf used on input line 127.
+Package pdftex.def Info: process.pdf used on input line 131.
 (pdftex.def)             Requested size: 216.81pt x 162.60048pt.
  [3 <C:/Users/MinhBao/Documents/GitHub/WR227/ImageRetrievalSystem.pdf> <C:/User
 s/MinhBao/Documents/GitHub/WR227/process.pdf
@@ -216,14 +216,14 @@ e
 >] <oxbuilding.jpg, id=48, 1371.1225pt x 654.445pt>
 File: oxbuilding.jpg Graphic file (type jpg)
  <use oxbuilding.jpg>
-Package pdftex.def Info: oxbuilding.jpg used on input line 182.
+Package pdftex.def Info: oxbuilding.jpg used on input line 186.
 (pdftex.def)             Requested size: 216.81pt x 103.48506pt.
 
 <oxbuilding_query.jpg, id=49, 1371.1225pt x 654.445pt>
 File: oxbuilding_query.jpg Graphic file (type jpg)
 
 <use oxbuilding_query.jpg>
-Package pdftex.def Info: oxbuilding_query.jpg used on input line 189.
+Package pdftex.def Info: oxbuilding_query.jpg used on input line 193.
 (pdftex.def)             Requested size: 216.81pt x 103.48506pt.
  (C:\Users\MinhBao\Documents\GitHub\WR227\WR227.bbl
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
@@ -274,7 +274,7 @@ Here is how much of TeX's memory you used:
  5316 multiletter control sequences out of 15000+200000
  35250 words of font info for 64 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,7n,19p,928b,282s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,7n,19p,928b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -287,7 +287,7 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on WR227.pdf (4 pages, 1422000 bytes).
+Output written on WR227.pdf (4 pages, 1421623 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
