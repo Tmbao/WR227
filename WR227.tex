@@ -20,7 +20,7 @@ Email: tmbao@apcs.vn}
 
 
 \begin{abstract}
-The popularity of many social network sites such as Facebook, Twitter, and YouTube… creates a huge demand of managing and querying visual data from billions of images. Searching by text cannot describe the information as effective as by images but it is more complicated to search by images due to the changes of camera angles or lighting conditions. To address this problem, the authors conduct a comparison of the retrieval quality between a standard Bag-of-Words model and one with spatial reranking using RANSAC. Our experimental results on Oxford Building 5K Dataset show that spatial reranking improves the mean Average Precision of Bag-of-Words model from 0.708 up to 0.742. The authors view this work as a promising step to further improve the performance of different visual search systems using the spatial relations between the images.
+The popularity of many social network sites such as Facebook, Twitter, and YouTube… creates a huge demand of managing and querying visual data from billions of images. Searching by text cannot describe the information as effective as by images but it is more complicated to search by images due to the changes of camera angles or lighting conditions. To address this problem, the authors conduct a comparison of the retrieval quality between a standard Bag-of-Words model and one with spatial reranking using RANSAC. Our experimental results on Oxford Building 5K Dataset show that spatial reranking improves the mean Average Precision of Bag-of-Words model from 0.676 up to 0.741. The authors view this work as a promising step to further improve the performance of different visual search systems using the spatial relations between the images.
 \end{abstract}
 
 \IEEEpeerreviewmaketitle
@@ -32,7 +32,7 @@ The tendency to search not only by text but also some special features of other 
 
 To query visual data using a single image, one of many approaches is template matching method, i.e. a technique for finding small parts of an image which match a template image \cite{brunelli_template_matching}, \cite{Rosenfeld4309663, Gharavi913587}. Another popular technique is to evaluate the similarity of two images by comparing some regions which seem to be the interested points of the images, namely features matching \cite{Belongie710790, Rubner, Viola990517}. The algorithm that the authors choose to discuss in this paper is Bag-of-Words (BoW) \cite{3} which is used by many different image retrieval systems \cite{3, 2, 7}. A reason why Bag-of-Words is widely used is that its allow parts of a query image to appear flexible in the result images. Hence, BoW model is a really potential approach and is focused by many research groups.
 
-However, due to the flexibility among parts of the query images, BoW might not fully exploit the spatial relations among the components of images. This fact motivates our investigation to prove that cooperating the spatial information can increase the precision of BoW model. Our experiments performed on Oxford Building 5K Dataset shows that using an extra spatial rerank step has a huge impact on the BoW model in term of mean Average Precision (an increase from 0.708 to 0.742). This work's main contribution is the proof that spatial information is really useful when retrieving visual information and promote the research of enforcing spatial consistency to image retrieval systems.
+However, due to the flexibility among parts of the query images, BoW might not fully exploit the spatial relations among the components of images. This fact motivates our investigation to prove that cooperating the spatial information can increase the precision of BoW model. Our experiments performed on Oxford Building 5K Dataset shows that using an extra spatial rerank step has a huge impact on the BoW model in term of mean Average Precision (an increase from 0.676 to 0.741). This work's main contribution is the proof that spatial information is really useful when retrieving visual information and promote the research of enforcing spatial consistency to image retrieval systems.
 
 The rest of this paper is organized as follows. In section \ref{section:background_relatedworks}, we review the background and related words in image retrieval and image classification. The core steps of the BoW model and how we conduct experiments are presented in section \ref{section:method}. Section IV is for experiment results and evaluations. The conclusion and future works are presented in section V.
 
@@ -52,7 +52,7 @@ Since Bag-of-Words is originally a text retrieval algorithm, we will first intro
 
 \subsubsection{Bag-of-Words in text retrieval}\label{section:bow_text}
 In text retrieval, a text is represented as a histogram of words, also known as BoW \cite{4}. This scheme is called term frequency weighting as the value of each histogram bin is equal to the number of times the word appears in the document.
-Moreover, some words are less informative than others since those words appear in almost every document. Therefore, we need a weighting scheme that address this problem. Such weighting scheme is called inverse document frequency (idf) and is formulated as $log(N_{D} / N_{i})$, where $N_{D}$ is the number of documents in the collection and $N_{i}$ is the number of documents which contains word $i$. The overall BoW representation is thus weighted by multiplying the term frequency (tf) with the inverse document frequency (idf) giving rise to the tf-idf weighting \cite{4}. Extremely frequent words, ``stop words'', can be removed entirely in order to reduce storage requirements and query time.
+Moreover, some words are less informative than others since those words appear in almost every document. Therefore, we need a weighting scheme that address this problem. Such weighting scheme is called inverse document frequency (idf) and is formulated as $log(N_{D} / N_{i})$, where $N_{D}$ is the number of documents in the collection and $N_{i}$ is the number of documents which contains word $i$. The overall BoW representation is thus weighted by multiplying the term frequency (tf) with the inverse document frequency (idf) giving rise to the tf-idf weighting \cite{4}. In addtion, extremely frequent words, ``stop words'', can be removed entirely in order to reduce storage requirements and query time.
 
 
 \subsubsection{Bag-of-Words in image retrieval} \label{section:bow_image}
@@ -63,49 +63,21 @@ The bigger the vocabulary size is, the more different the visual words are. Henc
 
 \subsection{Evaluation the performance of image retrieval system} \label{section:evaluation_ir_sys}
 
-\subsubsection{Test collection}
-Measuring ad-hoc information retrieval (especially image retrieval) effectiveness usually requires a test collection consisting of three things:
+Since there are many different algorithms lying behind different information retrieval systems, it is crucial to have a measurement for evaluating the performance of information retrieval systems. In this subsection, we will describe different popular measurements which are used to estimate performance of an information retrieval system. First of all, the authors would like to introduce 3 things that are required to evaluate information retrieval systems: a document collection, a set of queries, and a set of relevant documents for each query.
 
-\begin{itemize} \label{section:evaluation_ir_require}
-\item{An image collection}
-\item{A test suite of information needs, expressible as queries}
-\item{A set of relevance judgments, standardly a binary assessment of either relevant or nonrelevant for each query-document pair}
-\end{itemize}
+The 2 early born and fundamental measures are precision and recall. While precision is calculated as the ratio between the number of relevant documents that are retrieved and the total number of relevant documents, recall is the quotient between the number of relevant documents retrieved and the number of relevant documents. The formula of these 2 measures are shown below:
 
-The authors decide to evaluate our Image Retrieval System by using the Oxford Building 5K Dataset \cite{oxbuilding}. The Oxford Building 5K Dataset consists of 5062 images collected from Flickr, has been manually annotated to generate a comprehensive ground truth for 11 differenent landmarks, each represented by 5 possible queries (55 queries in total).
+\begin{equation}
+recall = \frac{number\;of\;relevant\;items\;retrieved}{number\;of\;relevant\;items\;in\;collection}
+\end{equation}
 
-\subsubsection{Evaluation measures}
-Evaluation measures provide a way of quantifying retrieval effectiveness \cite{c2008, Croft:2009:SEI:1516224}. Together, the test collection and evaluation measure provide a simulation of the user of an information retrieval system \cite{journals/ires/CloughS13}. There are many measurements for evaluating ad-hoc retrieval systems:
+\begin{equation}
+precision = \frac{number\;of\;relevant\;items\;retrieved}{total\;number\;of\;items\;retrieved}
+\end{equation}
 
-\begin{itemize} \label{section:evaluation_ir_measurements}
-\item{Set-based measures: We treats documents in the ranking as unique and ignores the ordering of results \cite{journals/ires/CloughS13}. Two simple measures developed early on were precision and recall. 
-    \begin{itemize}
-        \item{Precision (P) at a position in the ranked list
+Despite their simplicity, precision and recall fail to take into account of the order of retrieved documents which is also important since a user want to find his/her desired document as fast as possible. Therefore, many other measures, which also consider the arrangement of the retrieved documents, are developed based on precision and recall. There is one such measure named Average Precision (AP), the average value of the precision value achieved from the top documents cut-off at positions where relevant documents are retrieved. In addition to precision, recall, and AP, there are also many other measures such as F-measure, i.e. weighted average of precision and recall or R-precision, i.e. the precision at R-th position where R is the number of relevant documents.
 
-        $P = \frac{\left|\{relavant\_retrieved\_documents\}\right|}{\left|\{all\_documents\}\right|}$}
-        \item{Recall (R) at a position in the ranked list
-
-        $R = \frac{\left|\{relavant\_retrieved\_documents\}\right|}{\left|\{relavant\_documents\}\right|}$}
-        \item{Average Precision (AP) is average of P overall indices such that the returned document is relavant
-
-        $AP = \sum\limits_{i \in I} \frac{P}{\left|I\right|}$}
-
-        $I$: the set of indices of relavent documents in the ranked list
-        \item{Mean Average Precision (mAP) is the average of AP overall queries
-
-        $mAP = \sum\limits_{q \in Q} \frac{AP}{\left|Q\right|} $
-
-        $Q$: the set of queries}
-
-    \end{itemize}
-
-    By using mAP, we can determine how well a retrieval system is (the higher mAP is, the better retrieval system is).
-}
-\item{Rank-based measures: The most commonly used measures are based on evaluating ranked retrieval results, where importance is placed, not only on obtaining the maximum number of relevant documents, but also for returning relevant documents higher in the ranked list \cite{journals/ires/CloughS13}. A common way to evaluate ranked outputs is to compute precision at various levels of recall (e.g., 0.0, 0.1, 0.2, ... 1.0), or at the rank positions of all the relevant documents and the scores averaged (referred to as average precision) \cite{journals/ires/CloughS13}. A further common measure is precision at a fixed rank position, an alternative measure called R-precision can be used: precision is measured at the rank position Rq \cite{journals/ires/CloughS13}.
-}
-\end{itemize}
-
-There is still others measures that have been developed to evaluate different information retrieval problems \cite{journals/ires/CloughS13} (e.g., mean reciprocal rank (MRR), S-recall, ...). In this paper, the authors use set-based measures to evaluate our retrieval system.
+In our experiments, to evaluate the result, the authors choose to use the AP measure along with the mean value of AP overall queries, namely mean Average Precision (mAP). Besides the fact that these 2 measures can fully evaluate both the content and the order of the ranked list, their popularity are also a reason why the authors choose them. AP and mAP are also used in many previous works in image retrieval, so we can easily compare our framework's performance with others based on these 2 measures.
 
 
 \section{Method} \label{section:method}
@@ -179,7 +151,7 @@ So far, we have always consider an image as a document of visual words, which me
 
 \section{Experiment \& Result} \label{section:experiment_result}
 
-To prove our hypotheses, the authors test both the BoW systems with and without spatial rerank on the Oxford Building 5K Dataset \cite{oxbuilding}. This dataset was constructed by Philbin et al. in 2007 \cite{2}. It consists of 5,062 images of resolution $1024 \times 768$ belongs to 11 different Oxford buildings. Images for each building are collected from Flickr by searching using text queries. In figure \ref{fig:oxbuilding}, some samples from the dataset are shown. To evaluate our system, the authors use 55 available queries along with their ground-truth, 5 for each landmark, as shown in figure \ref{fig:oxbuilding_query}. 
+To prove our hypotheses, the authors test both the BoW systems with and without spatial rerank on the Oxford Building 5K Dataset \cite{oxbuilding}. This dataset was constructed by Philbin et al. in 2007 \cite{2}. It consists of 5,062 images of resolution $1024 \times 768$ belongs to 11 different Oxford buildings. Images for each building are collected from Flickr by searching using text queries. In figure \ref{fig:oxbuilding}, some samples from the dataset are shown. Along with the dataset, there are also 55 queries along with their ground-truth, 5 for each landmark, as shown in figure \ref{fig:oxbuilding_query}. The reason why the authors use this dataset is because of its popularity, it is used by many previous works in this field. Thus, we can easily compare our systems with those previous works.
 
 \begin{figure}
     \centering
@@ -190,11 +162,23 @@ To prove our hypotheses, the authors test both the BoW systems with and without 
 
 \begin{figure}
     \centering
-    \includegraphics[width=3.0in]{oxbuilding_query.jpg}
+    \includegraphics[width=3.0in]{oxbuilding_query.pdf}
     \caption{55 queries of Oxford Building 5K Dataset}
     \label{fig:oxbuilding_query}
 \end{figure}
 
+Our experiment shows that spatial rerank has significant impact on the retrieval quality of BoW model, an increase from 0.676 to 0.741 in term of mAP. More specifically, 74.2\% of the queries' AP are improved, the largest increment is from 0.417 to 1.000, the rest of queries approximately remain unchanged. The AP of all 55 queries are shown in figure \cite{fig:ap_chart}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.0in]{mAP.pdf}
+    \caption{Comparison chart between the 2 methods}
+    \label{fig:ap_chart}
+\end{figure}
+
+\section{Conclusion}
+
+Through our experiments, it is proved that spatial rerank significantly boost the performance of BoW model. This is a very potential result to further improve the performance of many image retrieval systems. In the future, we plan to keep upgrading our system to operate on other datasets which are larger in size and also more variant in term of content. Our final goal is to deploy our system for real-time usage with limited computer resources.
 
 \bibliographystyle{IEEEtran}
 \bibliography{IEEEabrv,thuyen}

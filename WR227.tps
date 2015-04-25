@@ -12,13 +12,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1008
-NormalPos.bottom=604
+NormalPos.bottom=250
 Class=LaTeXView
 Document=WR227.tex
 
 [Frame0_View0,0]
-TopLine=225
-Cursor=14914
+TopLine=292
+Cursor=18692
 
 [Frame1]
 Flags=0
@@ -30,7 +30,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1008
-NormalPos.bottom=604
+NormalPos.bottom=250
 Class=BibTeXView
 Document=IEEEexample.bib
 
@@ -48,13 +48,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1008
-NormalPos.bottom=604
+NormalPos.bottom=250
 Class=BibTeXView
 Document=thuyen.bib
 
 [Frame2_View0,0]
-TopLine=365
-Cursor=14465
+TopLine=421
+Cursor=16483
 
 [SessionInfo]
 FrameCount=3
