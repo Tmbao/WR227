@@ -1,9 +1,16 @@
+% \addbibresource{refs.bib}
+
 \section{Method} \label{section:method}
 \subsection{Overview of an Image Retrieval System}
 
-As described in Figure \ref{fig:image_retrieval_system}, a typical Image Retrieval System consists of 2 main steps: Feature Extraction and Similarity Matching. We will explain how we do the Feature Extraction step in this section. In section \ref{section:similarity_extraction}, the authors focus on describing how we perform Similarity Matching with our implementation of BoW model.
+As described in Figure \ref{fig:image_retrieval_system}, a typical Image Retrieval System consists of 2 main steps: Feature Extraction and Similarity Matching. The Features Extraction step is explained in detail in section \ref{section:feature_extraction}. Subsequently, in section \ref{section:similarity_extraction}, the authors focus on describing how we perform Similarity Matching with our implementation of BoW model.
 
-To extract features from images, the authors choose to use Hessian affine detector \cite{Mikolajczyk2004}. As we tested on Oxford Building 5K Dataset \cite{oxbuilding}, there are typically 3,300 features for each image and a total about 16 millions of features for the whole dataset. Then, we compute the SIFT descriptors \cite{Lowe2004} of all the features and use these descriptors for the next steps.
+
+\subsection{Feature Extraction} \label{section:feature_extraction}
+
+To detect and extract features from images, there are many methods that have been proposed (Harris-Affine, Hessian-Affine detectors \cite{Mikolajczyk2004}, Maximally stable extremal region (MSER) detector \cite{conf/bmvc/MatasCUP02}, Edge-based region detector \cite{Tuytelaars99content-basedimage}, Intensity extrema-based region detector \cite{Tuytelaars00widebaseline} ...). The authors choose to use Hessian-Affine detector, for detecting and extracting features from images. By using Hessian-Affine detector, which is also used in other baseline methods, our experiment's result can easily compare with other ones.
+
+As we tested on Oxford Building 5K Dataset \cite{oxbuilding}, there are typically 3,300 features for each image and a total about 16 millions of features for the whole dataset. Then, we compute the SIFT descriptor \cite{Lowe2004} of all the features and these descriptors is used for matching images in the next step.
 
 \begin{figure}
     \centering
@@ -12,7 +19,7 @@ To extract features from images, the authors choose to use Hessian affine detect
     \label{fig:image_retrieval_system}
 \end{figure}
 
-\subsection {Similarity Matching} \label{section:similarity_extraction}
+\subsection{Similarity Matching} \label{section:similarity_extraction}
 
 As showed in Figure \ref{fig:bow_model} typical BoW model used in image retrieval systems would consist of the following steps: Dictionary Building, Quantization and Retrieving the result. The 2 former steps are described in section \ref{section:dictionary_building} and section \ref{section:quantization}. The last step is our main focus in this paper and is discussed in section \ref{section:tfidf_weighting} and section \ref{section:spatial_rerank}.
 

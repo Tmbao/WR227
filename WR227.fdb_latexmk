@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex WR227"] 1431153850 "WR227.aux" "WR227.bbl" "WR227" 1431153850
+["bibtex WR227"] 1431163232 "WR227.aux" "WR227.bbl" "WR227" 1431163242
   " refs.bib" 0 -1 0 ""
   "./IEEEtran.bst" 1430538326 61632 1eded68932b68cdfaf04f54eba82634b ""
   "IEEEabrv.bib" 1430538326 17841 d1b6e95678a4492b1a7c620153c6aba2 ""
-  "WR227.aux" 1431153850 4721 35acd5fef47aca8a007bf041d9303654 ""
+  "WR227.aux" 1431163242 5018 946a1275ee90c0f2b0acafb975b0eb78 ""
   "WR227.bcf" 0 -1 0 ""
   (generated)
   "WR227.blg"
   "WR227.bbl"
-["pdflatex"] 1431153850 "WR227.tex" "WR227.pdf" "WR227" 1431153850
+["pdflatex"] 1431163242 "WR227.tex" "WR227.pdf" "WR227" 1431163242
   "/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1303254447 7324 11d14f318d865f420e692d4e6c9c18c3 ""
@@ -31,7 +31,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
   "IEEEtran.cls" 1431153436 276163 5b8c27844c9c11d4ad81e78fc081963e ""
   "ImageRetrievalSystem.pdf" 1430538326 88766 ab444357546b5f805235382aa92c534a ""
-  "WR227.aux" 1431153850 4721 35acd5fef47aca8a007bf041d9303654 ""
+  "WR227.aux" 1431163242 5018 946a1275ee90c0f2b0acafb975b0eb78 ""
   "WR227.bbl" 1431153828 6129 5c5f290099abd3a44bea222b3bb3d29c "bibtex WR227"
   "WR227.tex" 1431153848 817 698200cb4cd2e8d88640b8ad28a961b3 ""
   "abstract.tex" 1431153169 881 3c5111fdaef668c901f3702df3a778b5 ""
@@ -40,11 +40,11 @@
   "experiment_result.tex" 1431153775 1791 bd09b136e25129f135f6e8dac705b60e ""
   "introduction.tex" 1431153663 2970 39ba71d4fdaa6c36ee88282f222657ad ""
   "mAP.pdf" 1430538327 93556 d37695f8d7c53cba84ab658242aaaa77 ""
-  "method.tex" 1431153826 5563 99875aa143e30adfca5d3b1d9c8d3e9b ""
+  "method.tex" 1431163241 6238 bade943e8584077b92867a0c0016655b ""
   "oxbuilding.jpg" 1430538327 217045 14a1c8a648e2d39a75b2ce17e2b3c62e ""
   "oxbuilding_query.pdf" 1430538327 558481 0f6afabf4e43f3262eafa420a3e091f1 ""
   "process.pdf" 1430538326 732013 a3e0de597e87b21ff878681367573d11 ""
   (generated)
-  "WR227.pdf"
-  "WR227.aux"
   "WR227.log"
+  "WR227.aux"
+  "WR227.pdf"

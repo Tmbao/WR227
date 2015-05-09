@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.2)  9 MAY 2015 13:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.2)  9 MAY 2015 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -235,29 +235,46 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]) (./method.tex
-<ImageRetrievalSystem.pdf, id=11, 963.6pt x 542.025pt>
+
+LaTeX Warning: Citation `conf/bmvc/MatasCUP02' on page 2 undefined on input lin
+e 11.
+
+
+LaTeX Warning: Citation `Tuytelaars99content-basedimage' on page 2 undefined on
+ input line 11.
+
+
+LaTeX Warning: Citation `Tuytelaars00widebaseline' on page 2 undefined on input
+ line 11.
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 11--12
+\OT1/ptm/m/n/10 Affine de-tec-tors [[]], Max-i-mally sta-ble ex-tremal re-gion
+ []
+
+[2] <ImageRetrievalSystem.pdf, id=16, 963.6pt x 542.025pt>
 File: ImageRetrievalSystem.pdf Graphic file (type pdf)
 
 <use ImageRetrievalSystem.pdf>
-Package pdftex.def Info: ImageRetrievalSystem.pdf used on input line 10.
+Package pdftex.def Info: ImageRetrievalSystem.pdf used on input line 17.
 (pdftex.def)             Requested size: 216.81pt x 121.95035pt.
- <process.pdf, id=12, 1445.4pt x 1084.05pt>
+ <process.pdf, id=17, 1445.4pt x 1084.05pt>
 File: process.pdf Graphic file (type pdf)
 
 <use process.pdf>
-Package pdftex.def Info: process.pdf used on input line 21.
+Package pdftex.def Info: process.pdf used on input line 28.
 (pdftex.def)             Requested size: 216.81pt x 162.60048pt.
- [2]) (./experiment_result.tex
-<oxbuilding.jpg, id=18, 1371.1225pt x 654.445pt>
+) (./experiment_result.tex [3 <./ImageRetrievalSystem.pdf> <./process.pdf
+
+pdfTeX warning: pdflatex (file ./process.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] <oxbuilding.jpg, id=49, 1371.1225pt x 654.445pt>
 File: oxbuilding.jpg Graphic file (type jpg)
  <use oxbuilding.jpg>
 Package pdftex.def Info: oxbuilding.jpg used on input line 7.
 (pdftex.def)             Requested size: 216.81pt x 103.48506pt.
- [3 <./ImageRetrievalSystem.pdf> <./process.pdf
 
-pdfTeX warning: pdflatex (file ./process.pdf): PDF inclusion: multiple pdfs wit
-h page group included in a single page
->] <oxbuilding_query.pdf, id=50, 453.1329pt x 628.74902pt>
+<oxbuilding_query.pdf, id=50, 453.1329pt x 628.74902pt>
 File: oxbuilding_query.pdf Graphic file (type pdf)
 
 <use oxbuilding_query.pdf>
@@ -280,13 +297,14 @@ Package pdftex.def Info: mAP.pdf used on input line 23.
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¼ in font ptmr7t!
 [4 <./oxbuilding.jpg> <./oxbuilding_query.pdf> <./mAP.pdf
 
 pdfTeX warning: pdflatex (file ./mAP.pdf): PDF inclusion: multiple pdfs with pa
 ge group included in a single page
 >]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -319,10 +337,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2365 strings out of 495028
- 38758 string characters out of 6181498
- 102042 words of memory out of 5000000
- 5557 multiletter control sequences out of 15000+600000
+ 2369 strings out of 495028
+ 38866 string characters out of 6181498
+ 101059 words of memory out of 5000000
+ 5561 multiletter control sequences out of 15000+600000
  35250 words of font info for 64 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  37i,7n,23p,923b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -339,7 +357,7 @@ cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 ive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on WR227.pdf (5 pages, 1832827 bytes).
+Output written on WR227.pdf (5 pages, 1833525 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream
