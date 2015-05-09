@@ -3,7 +3,7 @@
 \section{Method} \label{section:method}
 \subsection{Overview of an Image Retrieval System}
 
-As described in Figure \ref{fig:image_retrieval_system}, a typical Image Retrieval System consists of 2 main steps: Feature Extraction and Similarity Matching. The Features Extraction step is explained in detail in section \ref{section:feature_extraction}. Subsequently, in section \ref{section:similarity_extraction}, the authors focus on describing how we perform Similarity Matching with our implementation of BoW model.
+As described in Figure \ref{fig:image_retrieval_system}, a typical Image Retrieval System consists of 2 main steps: Feature Extraction and Similarity Matching. The Feature Extraction step is explained in detail in section \ref{section:feature_extraction}. Subsequently, in section \ref{section:similarity_extraction}, the authors focus on describing how we perform Similarity Matching with our implementation of BoW model.
 
 
 \subsection{Feature Extraction} \label{section:feature_extraction}
@@ -15,13 +15,13 @@ As we tested on Oxford Building 5K Dataset \cite{oxbuilding}, there are typicall
 \begin{figure}
     \centering
     \includegraphics[width=3.0in]{ImageRetrievalSystem.pdf}
-    \caption{How an image retrieval system works}
+    \caption{How an Image Retrieval System works}
     \label{fig:image_retrieval_system}
 \end{figure}
 
 \subsection{Similarity Matching} \label{section:similarity_extraction}
 
-As showed in Figure \ref{fig:bow_model} typical BoW model used in image retrieval systems would consist of the following steps: Dictionary Building, Quantization and Retrieving the result. The 2 former steps are described in section \ref{section:dictionary_building} and section \ref{section:quantization}. The last step is our main focus in this paper and is discussed in section \ref{section:tfidf_weighting} and section \ref{section:spatial_rerank}.
+As showed in Figure \ref{fig:bow_model} typical BoW model used in Image Retrieval Systems would consist of the following steps: Dictionary Building, Quantization and Retrieving the result. The 2 former steps are described in section \ref{section:dictionary_building} and section \ref{section:quantization}. The last step is our main focus in this paper and is discussed in section \ref{section:tfidf_weighting} and section \ref{section:spatial_rerank}.
 
 \begin{figure}
     \centering
@@ -32,11 +32,13 @@ As showed in Figure \ref{fig:bow_model} typical BoW model used in image retrieva
 
 \subsubsection{Dictionary Building} \label{section:dictionary_building}
 
-Generating the dictionary of visual words for such a huge amount descriptors is a big challenge. In order to overcome this obstacle, the authors use the approximate k-means (AKM) instead of the traditional exact k-means (KM). AKM is proposed by Philbin et al. \cite{2}, which reduce the majority amount of time taken by exact nearest neighbors computation by using an approximate method instead. Also, in \cite{2}, Philbin et al. shows that using 1M dictionary size would have the best performance on the Oxford Building 5K Dataset \cite{oxbuilding}.
+Generating the dictionary of visual words for such a huge amount descriptors is a big challenge. In order to overcome this obstacle, the authors propose to reduce the number of descriptors by considering some similar descriptors as one. In other words, we need to cluster all descriptors into $k$ words. There are many algorithms that are proposed to solve this kind of problem. However, the authors use the approximate k-means (AKM). AKM is proposed by Philbin et al. \cite{2}. Comparing to the original k-means, AKM can reduce the majority amount of time taken by exact nearest neighbors computation but only gives slightly different result. Also, in \cite{2}, Philbin et al. shows that using 1M dictionary size would have the best performance on the Oxford Building 5K Dataset \cite{oxbuilding}.
 
 \subsubsection{Quantization} \label{section:quantization}
 
-Subsequently, each 128-dimension SIFT descriptor is reduced to a 3-dimension vectors of their 3 nearest visual words in the dictionary. Each of these 3 nearest cluster is assigned with weights calculated with the formula proposed by Sivic et al. \cite{7}, $weight = \exp(-\frac{d^2}{2\delta^2})$, where $d$ is the distance from the cluster center to the descriptor point and $\delta^2$ is chosen to be 6250. Then, by adding all these weights to their corresponding bins, we will have the BoW representation of an image.
+Subsequently, each 128-dimension SIFT descriptor needs to be mapped into the dictionary. Commonly, each descriptor is assigned into the nearest word in the dictionary and if two descriptors are assigned to diferent words, they are considered as totally different. In practice, this hard assignment leads to errors due to variability in descriptor (e.g. image noise, varying scene illumination, instability in the feature detection process ...) \cite{7}. In order to handling this problem, the authors use soft assignment instead of hard assignment. In particular, each 128-dimension SIFT descriptor is reduced to a k-dimension vector of their $k$ nearest visual words in the dictionary. Each of these $k$ nearest cluster is assigned with weights calculated with the formular proposed by Sivic et al. \cite{7}, $weight = \exp(-\frac{d^2}{2\delta^2})$, where $d$ is the distance from the cluster center to descriptor point. Then, by adding all these weights to their corresponding bins, we will have the BoW representation of an image.
+
+In this paper, $k$ and $\delta^2$ are chosen to be 3 and 6250, respectively.
 
 \subsubsection{tf-idf Weighting Scheme} \label{section:tfidf_weighting}
 

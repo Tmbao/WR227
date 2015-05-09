@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.2)  9 MAY 2015 16:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.9)  10 MAY 2015 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **WR227.tex -recorder
 (./WR227.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (./IEEEtran.cls
 Document Class: IEEEtran 2014/09/17 V1.8a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -228,9 +228,9 @@ Missing character: There is no € in font ptmb7t!
 Missing character: There is no ¦ in font ptmb7t!
 ) (./introduction.tex) (./background.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 7.
+(Font)              <7> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 7.
+(Font)              <5> on input line 9.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -290,21 +290,19 @@ File: mAP.pdf Graphic file (type pdf)
 Package pdftex.def Info: mAP.pdf used on input line 23.
 (pdftex.def)             Requested size: 216.81pt x 123.15059pt.
 ) (./conclusion.tex)
-(./WR227.bbl
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `English'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `English'. Using the pattern for
-** the default language instead.
-[4 <./oxbuilding.jpg> <./oxbuilding_query.pdf> <./mAP.pdf
+(./WR227.bbl [4 <./oxbuilding.jpg> <./oxbuilding_query.pdf> <./mAP.pdf
 
 pdfTeX warning: pdflatex (file ./mAP.pdf): PDF inclusion: multiple pdfs with pa
 ge group included in a single page
 >]
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -337,13 +335,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2369 strings out of 495028
- 38866 string characters out of 6181498
- 101059 words of memory out of 5000000
- 5561 multiletter control sequences out of 15000+600000
+ 2369 strings out of 493304
+ 38866 string characters out of 6139872
+ 105345 words of memory out of 5000000
+ 5810 multiletter control sequences out of 15000+600000
  35250 words of font info for 64 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 37i,7n,23p,923b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 957 hyphenation exceptions out of 8191
+ 37i,7n,23p,1091b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -357,7 +355,7 @@ cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 ive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on WR227.pdf (5 pages, 1833525 bytes).
+Output written on WR227.pdf (5 pages, 1834419 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream
