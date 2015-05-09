@@ -1,16 +1,16 @@
 % \addbibresource{refs.bib}
 
 \section{Background \& Related works} \label{section:background_relatedworks}
-There are many approaches to create Image Information Retrieval System. Some methods aim at high precision, i.e achieve high quality of top retrieved results, others focus on high recall, i.e retrieve all positive results. Among them, the first effective and scalable method is Bag-of-Words, Sivic and Zisserman \cite{3}, which is inspired by the correspondence algorithm using in text retrieval. Before going into details of BoW model in subsection \ref{section:background_bow}, we will first introduce some different methods for image retrieval problem in subsection \ref{section:background_dif_method}.
+There are many approaches to build an Image Information Retrieval System. Some methods aim at high precision, i.e achieve high quality of top retrieved results, while others focus on high recall, i.e retrieve all positive results. Among them, the first effective and scalable method is Bag-of-Words, Sivic and Zisserman \cite{3}, which is inspired by the correspondence algorithm using in text retrieval. Before going into details of BoW model in subsection \ref{section:background_bow}, we will first introduce some different methods for image retrieval problem in subsection \ref{section:background_dif_method}.
 
 \subsection{Different approaches for image retrieval problem} \label{section:background_dif_method}
-One of many popular method is histogram comparisons which compares 2 different images based on their color histograms. Some early works of this approach using a cross-bin matching cost for histogram comparison can be found in \cite{Shen1983187, Werman1985328, Peleg192468}. In \cite{Peleg192468}, Peleg et al. represent images as sets of pebbles after normalization. The similarity score is then computed as the matching cost of two sets of pebbles based on their distances.
+One of many popular methods is histogram comparisons which compares 2 different images based on their color histograms. Some early works of this approach using a cross-bin matching cost for histogram comparison can be found in \cite{Shen1983187, Werman1985328, Peleg192468}. In \cite{Peleg192468}, Peleg et al. represent images as sets of pebbles after normalization. The similarity score is then computed as the matching cost of two sets of pebbles based on their distances.
 
-Another well-known technique is template matching, i.e. seeking a given pattern in a image by comparing to candidate regions of the same size in the target image. By consider both the pattern and candidate regions as a length-$N$ vector, we can compare these two vectors by using different kind of distance metrics, one such metric is the Minkowski distance \cite{Ouyang5770267}.
+Another well-known technique is template matching, i.e. seeking a given pattern in a image by comparing to candidate regions of the same size in the target image. By consider both the pattern and candidate regions as a length-$N$ vector, we can compare these two vectors by using different kinds of distance metrics, one such metric is the Minkowski distance \cite{Ouyang5770267}.
 
 \subsection{Bag-of-Words}\label{section:background_bow}
 
-Since Bag-of-Words is originally a text retrieval algorithm, we will first introduce some backgrounds about BoW in text retrieval problem in subsection \ref{section:bow_text} before discussing about using BoW in image retrieval in subsection \ref{section:bow_image}.
+Since Bag-of-Words is originally a text retrieval algorithm, we will first introduce some backgrounds about BoW in text retrieval problem in subsection \ref{section:bow_text} before discussing using BoW in image retrieval in subsection \ref{section:bow_image}.
 
 \subsubsection{Bag-of-Words in text retrieval}\label{section:bow_text}
 In text retrieval, a text is represented as a histogram of words, also known as BoW \cite{4}. This scheme is called term frequency weighting as the value of each histogram bin is equal to the number of times the word appears in the document.
@@ -18,6 +18,7 @@ Moreover, some words are less informative than others since those words appear i
 
 
 \subsubsection{Bag-of-Words in image retrieval} \label{section:bow_image}
+
 When applying BoW to image retrieval, a major obstacle is the fact that text documents are naturally broken into words by spaces, dots, hyphens, or commas. In contrast, there is no such separator in images. Therefore, the concept of ``visual word'' is introduced where each visual word is represented as a cluster obtained using k-means on the local descriptor vectors \cite{3}.
 
 The bigger the vocabulary size is, the more different the visual words are. Hence, the vocabulary helps us distinguish the images more effectively. Nonetheless, with bigger vocabulary size, slightly different descriptors can be assigned to different visual words thus not contributing to the similarity of the respective images and causing a drop in performance examined in \cite{5, 6, 7}. Philbin et al. \cite{7} suggests ``soft assign'' method where each descriptor is assigned to multiple nearest visual words instead of using ``hard assignment'', i.e only assign a local descriptor to only one nearest visual word. Despite its effectiveness, this method also significantly costs more storage and time.
@@ -27,7 +28,7 @@ The bigger the vocabulary size is, the more different the visual words are. Henc
 
 Since there are many different algorithms lying behind different information retrieval systems, it is crucial to have a measurement for evaluating the performance of information retrieval systems. In this subsection, we will describe different popular measurements which are used to estimate performance of an information retrieval system. First of all, the authors would like to introduce 3 things that are required to evaluate information retrieval systems: a document collection, a set of queries, and a set of relevant documents for each query.
 
-The 2 early born and fundamental measures are precision and recall. While precision is calculated as the ratio between the number of relevant documents that are retrieved and the total number of relevant documents, recall is the quotient between the number of relevant documents retrieved and the number of relevant documents. The formula of these 2 measures are shown below:
+The 2 early born and fundamental measures are precision and recall. While precision is calculated as the ratio between the number of relevant documents that are retrieved and the total number of retrieved documents, recall is the quotient between the number of relevant documents retrieved and the number of relevant documents. The formula of these 2 measures are shown below:
 
 \begin{equation}
 recall = \frac{number\;of\;relevant\;items\;retrieved}{number\;of\;relevant\;items\;in\;collection}
