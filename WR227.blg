@@ -11,7 +11,6 @@ Database file #1: IEEEabrv.bib
 Database file #2: refs.bib
 A bad cross reference---entry "conf/bmvc/MatasCUP02"
 refers to entry "conf/bmvc/2002", which doesn't exist
-Warning--I didn't find a database entry for "fig:ap_chart"
 Warning--I didn't find a database entry for "conf/bmvc/2002"
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -20,7 +19,7 @@ Warning--I didn't find a database entry for "conf/bmvc/2002"
 Done.
 You've used 25 entries,
             4024 wiz_defined-function locations,
-            1333 strings with 18586 characters,
+            1332 strings with 18574 characters,
 and the built_in function-call counts, 18858 in all, are:
 = -- 1508
 > -- 412

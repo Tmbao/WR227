@@ -24,6 +24,24 @@ When applying BoW to image retrieval, a major obstacle is the fact that text doc
 The bigger the vocabulary size is, the more different the visual words are. Hence, the vocabulary helps us distinguish the images more effectively. Nonetheless, with bigger vocabulary size, slightly different descriptors can be assigned to different visual words thus not contributing to the similarity of the respective images and causing a drop in performance examined in \cite{5, 6, 7}. Philbin et al. \cite{7} suggests ``soft assign'' method where each descriptor is assigned to multiple nearest visual words instead of using ``hard assignment'', i.e only assign a local descriptor to only one nearest visual word. Despite its effectiveness, this method also significantly costs more storage and time.
 
 
+\subsection{Geometric transformation in images} \label{section:geometric_transformation}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3.0in]{transformation.png}
+    \caption{Transformation methods (Source: geodata.ethz.ch)}
+    \label{fig:image_houses}
+\end{figure}
+
+In computer, an image ussually represents as a matrix of pixels. In other words, it is an array I which I(x, y) is value of the pixel at x and y in horizontal and vertical coordinates, respectively. A geometric transformation T is a rule or formular which transform every pair of (x, y) into (x', y'), i.e. $(x', y') = T(x, y)$. Based on how different a transformed image is, compared to the original one, geometric transformation is divided into many types (e.g. similarity, affine, projective, polinomial ...). In this section, the authors describe similarity, affine and projective transformations which are used in our framework.
+
+\subsubsection{Similarity transformation} A similarity transformation is a transformation matrix T such that a new image A' is obtained by applying T into all pairs of (x, y) in A, i.e. $A'(x', y') = A(x, y)$. The main property of similarity transformation is that A and A' have the same shape. In other words, corresponding sides in A and A' are in proportion, corresponding angles in A and A' have the same measure. Similarity transformation includes scaling, translation, rotation, reflection and compositions of them in any combination and order.
+
+\subsubsection{Affine transformation} Similar to similarity transformation, an affine transformation is also a matrix T that transform an image A into a new image A'. However, angles between lines as well as distances between points may not be preserved, though ratios of distances between points lying on a straight line are preserved. Affine transformation includes similarity transformation, homothety, shear mapping and compositions of them in any combination and order.
+
+\subsubsection{Projective transformation} Generalized from affine transformation, projective transformation may not preserve the parallelism, i.e. two parallel lines/planes can be transformed into two intersecting lines/planes.
+
+
 \subsection{Evaluation the performance of image retrieval system} \label{section:evaluation_ir_sys}
 
 Since there are many different algorithms lying behind different information retrieval systems, it is crucial to have a measurement for evaluating the performance of information retrieval systems. In this subsection, we will describe different popular measurements which are used to estimate performance of an information retrieval system. First of all, the authors would like to introduce 3 things that are required to evaluate information retrieval systems: a document collection, a set of queries, and a set of relevant documents for each query.

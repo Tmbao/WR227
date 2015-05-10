@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex WR227"] 1431230723 "WR227.aux" "WR227.bbl" "WR227" 1431230724
+["bibtex WR227"] 1431241991 "WR227.aux" "WR227.bbl" "WR227" 1431241993
   "./IEEEtran.bst" 1430538326 61632 1eded68932b68cdfaf04f54eba82634b ""
   "IEEEabrv.bib" 1430538326 17841 d1b6e95678a4492b1a7c620153c6aba2 ""
-  "WR227.aux" 1431230724 5333 d342b81bb4f927e94f1cb419efacedb5 ""
+  "WR227.aux" 1431241993 6039 c280956fc673c401d16877f7fbc98edb ""
   "WR227.bcf" 0 -1 0 ""
   "refs.bib" 1431228431 18193 b3cb2de35560e9ecfa9a5d6fd131323f ""
   (generated)
   "WR227.blg"
   "WR227.bbl"
-["pdflatex"] 1431230723 "WR227.tex" "WR227.pdf" "WR227" 1431230724
+["pdflatex"] 1431241991 "WR227.tex" "WR227.pdf" "WR227" 1431241993
   "/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1303254447 7324 11d14f318d865f420e692d4e6c9c18c3 ""
@@ -31,21 +31,22 @@
   "/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
   "IEEEtran.cls" 1431153436 276163 5b8c27844c9c11d4ad81e78fc081963e ""
   "ImageRetrievalSystem.pdf" 1430538326 88766 ab444357546b5f805235382aa92c534a ""
-  "WR227.aux" 1431230724 5333 d342b81bb4f927e94f1cb419efacedb5 ""
-  "WR227.bbl" 1431230723 6814 6cfa994d8fc647f3ca1e09c2789e7227 "bibtex WR227"
+  "WR227.aux" 1431241993 6039 c280956fc673c401d16877f7fbc98edb ""
+  "WR227.bbl" 1431241991 6814 6cfa994d8fc647f3ca1e09c2789e7227 "bibtex WR227"
   "WR227.tex" 1431228431 808 56f8b2d78d84cd7d18fd623e4d1bcae9 ""
   "abstract.tex" 1431166419 881 3c5111fdaef668c901f3702df3a778b5 ""
-  "background.tex" 1431228431 7203 8dd125511499ff5120cd26bffbfc2845 ""
+  "background.tex" 1431241931 9376 4f26eda85d65785f6b9fe2803feb1317 ""
   "conclusion.tex" 1431192176 471 93f3799bb6f262f9ec01b92a0ee22c62 ""
-  "experiment_result.tex" 1431153775 1791 bd09b136e25129f135f6e8dac705b60e ""
+  "experiment_result.tex" 1431241783 1790 473a51e996099898101dfe3a2e046e18 ""
   "houses.png" 1431225298 457894 217a739b75d847c48279cf4874ba2102 ""
   "introduction.tex" 1431228431 3837 0a546965ff6ce78a05e59d7a0ccb1535 ""
   "mAP.pdf" 1430538327 93556 d37695f8d7c53cba84ab658242aaaa77 ""
-  "method.tex" 1431230717 7850 b9c1dd1d2577d676f73571fe3ceed99c ""
+  "method.tex" 1431241987 7879 95e24ddcfff2e26374e54e09d89ae7f6 ""
   "oxbuilding.jpg" 1430538327 217045 14a1c8a648e2d39a75b2ce17e2b3c62e ""
   "oxbuilding_query.pdf" 1430538327 558481 0f6afabf4e43f3262eafa420a3e091f1 ""
   "process.pdf" 1430538326 732013 a3e0de597e87b21ff878681367573d11 ""
+  "transformation.png" 1431241525 11088 d4dc7e42935511d414597cb7cb3555a9 ""
   (generated)
-  "WR227.pdf"
   "WR227.aux"
   "WR227.log"
+  "WR227.pdf"
