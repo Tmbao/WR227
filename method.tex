@@ -74,8 +74,15 @@ Finally, by sorting the list of images corresponding to their similarity score w
 
 \subsubsection{Spatial Rerank} \label{section:spatial_rerank}
 
-When applying BoW model into documents, we often ignore the spatial structure of words. However, the spatial structures of words in documents, especially images, is important for retrieving and ranking such images. Thus, we push the spatial information of visual words into our Image Retrieval System by incorporating the spatial constrains to the top ranked result and rerank them. 
+\begin{figure}
+    \centering
+    \includegraphics[width=3.0in]{houses.png}
+    \caption{Different images recorded from the same object under various viewpoints}
+    \label{fig:image_houses}
+\end{figure}
 
-The spatial verification process 
+When applying BoW model into documents, we often ignore the spatial structure of words. However, the spatial structures of words in documents, especially images, are important for retrieving and ranking. Thus, we push the spatial information of visual words into our Image Retrieval System by incorporating the spatial constrains to the top ranked result and rerank them. 
 
-So far, we have always consider an image as a document of visual words, which means that we totally ignore the spatial structure of the features. Thus, we now incorporate the spatial constraints to the top ranked result and rerank them. The spatial verification process evaluate a geometry transformation based on features coordinates of a image and the query. The target images are then reranked using the sum of the spatial verified visual words' idf. A common approach is to use RANSAC \cite{Fischler1981}, i.e. generating different transformation hypotheses and choose the hypothese which has the largest number of ``inliers''. In our system, we perform spatial rerank on the top 800 retrieved result of the dataset, which is showed to obtain the best accuracy by Philbin et al. \cite{2}.
+The spatial verification process evaluate a gemoetric transformation of a image and the query. In detail, we need to estimate the geometric transformation matrix based that tranforms features of the query to features of a image. As shown in Figure \ref{fig:image_houses}, objects can be taken under various viewpoints and it means the parallelism may not be preserved. Thus, a projective transformation, which requires at least a set of 4 matched pairs of point to be estimated, is needed in the transformation matrix. In order to choose such 4 matched pair of features, a common approach is to use RANSAC \cite{Fischler1981}, i.e. generating different transformation hypotheses and choose the hypothese which has the largest number of ``inliers''.
+
+In our system, we perform spatial rerank on the top 800 retrieved result of the dataset, which is showed to obtain the best accuracy by Philbin et al. \cite{2}.
