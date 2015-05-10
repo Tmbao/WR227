@@ -126,6 +126,21 @@ K.~Mikolajczyk and C.~Schmid, ``\BIBforeignlanguage{English}{Scale \& affine
   \emph{\BIBforeignlanguage{English}{International Journal of Computer
   Vision}}, vol.~60, no.~1, pp. 63--86, 2004.
 
+\bibitem{conf/bmvc/MatasCUP02}
+J.~Matas, O.~Chum, M.~Urban, and T.~Pajdla, ``Robust wide baseline stereo from
+  maximally stable extremal regions.'' in \emph{BMVC}, P.~L. Rosin and A.~D.
+  Marshall, Eds.\hskip 1em plus 0.5em minus 0.4em\relax British Machine Vision
+  Association, 2002.
+
+\bibitem{Tuytelaars99content-basedimage}
+T.~Tuytelaars and L.~V. Gool, ``Content-based image retrieval based on local
+  affinely invariant regions,'' in \emph{In Int. Conf. on Visual Information
+  Systems}, 1999, pp. 493--500.
+
+\bibitem{Tuytelaars00widebaseline}
+------, ``Wide baseline stereo matching based on local, affinely invariant
+  regions,'' in \emph{In Proc. BMVC}, 2000, pp. 412--425.
+
 \bibitem{oxbuilding}
 \BIBentryALTinterwordspacing
  [Online]. Available: \url{http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/}
