@@ -24,7 +24,23 @@ To ensure the objectivity of evaluation process, the authors decide to use the a
     \label{fig:oxbuilding_query}
 \end{figure}
 
-Our experiment shows that spatial rerank has significant impact on the retrieval quality of BoW model, an increase from 0.676 to 0.741 in term of mAP. The original BoW model have AP at least or higher than 0.5 for 41/55 queries and by using spatial rerank the figure is improved to 47/55 queries. Among 55 queries, there are 40 queries that achieve higher AP after incorporating spatial information and there 22 queries increasing more than 0.050. The highest boost is 0.583, from 0.417 to 1.000. However, there 2/55 queries suffering significant performance drop (decreases more than 0.100). To explain why there are performance reduction in these 2 queries, the authors believe that they are affected by the background features which actually should not be considered in the rerank step. For better illustration, the APs of all 55 queries are given in \ref{fig:ap_chart}.
+Our experiment shows that spatial rerank has significant impact on the retrieval quality of BoW model, an increase from 0.676 to 0.741 in term of mAP. The original BoW model have AP at least or higher than 0.5 for 41/55 queries and by using spatial rerank the figure is improved to 47/55 queries. Among 55 queries, there are 40 queries that achieve higher AP after incorporating spatial information and there 22 queries increasing more than 0.050. The highest boost is 0.583, from 0.417 to 1.000. However, there 2/55 queries suffering significant performance drop (decreases more than 0.100). To explain why there are performance reduction in these 2 queries, shown in figure \ref{fig:bad_queries}, the authors believe that they are affected by the background features which actually should not be considered in the rerank step. For better illustration, the APs of all 55 queries are given in \ref{fig:ap_chart}.
+
+\begin{figure}
+  
+		\begin{subfigure}{.5\textwidth}
+		\centering
+    \includegraphics[width=3.0in]{all_souls_4_query.png}
+		\end{subfigure}
+		
+		\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=3.0in]{balliol_2_query.png}
+		\end{subfigure}
+		
+    \caption{Two queries having worse performance after using spatial rerank}
+    \label{fig:bad_queries}
+\end{figure}
 
 \begin{figure}
   

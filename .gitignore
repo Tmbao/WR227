@@ -1,4 +1,5 @@
 *.gz
-*.pdf
+WR227.pdf
 *.log
 *.aux
+*.tcp
