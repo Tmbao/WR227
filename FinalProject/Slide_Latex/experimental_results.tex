@@ -1,0 +1,66 @@
+\begin{frame}{Dataset}
+  To prove our hypotheses, the authors test both the BoW systems with and without spatial rerank on the \alert{Oxford Building 5K Dataset} \footnote{\url{http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/}} which consists of 5,062 images belong to 11 different classes and 55 queries along with their ground-truth.
+
+  
+\end{frame}
+
+\begin{frame}{Dataset}
+  \begin{figure}
+    \begin{figure}{}
+        \centering
+        \includegraphics[width=4.0in]{images/oxbuilding.jpg}
+        \caption{Oxford Building 5K Dataset}
+    \end{figure}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Dataset}
+  \begin{figure}
+    \centering
+    \begin{subfigure}{}
+        \includegraphics[width=2.0in]{images/query_2.png}
+    \end{subfigure}
+    \begin{subfigure}{}
+        \includegraphics[width=2.0in]{images/query_2.png}
+    \end{subfigure}
+    \caption{Oxford Building 5K Dataset - Queries}
+  \end{figure}
+
+\end{frame}
+
+\begin{frame}{Experimental Result}
+  The performance of our system is evaluated by \alert{mean average precision} (mAP).
+
+  Our experiment shows that spatial rerank has significant impact on the retrieval quality of BoW model, an increase from 0.676 to 0.741 in term of mAP.
+\end{frame}
+
+\begin{frame}{Comparison chart}
+  % \begin{table}
+  %   \caption{mAP comparisons between different methods on Oxford 5K dataset}
+  %   \begin{tabular}{lr}
+  %     \toprule
+  %     Method & mAP\\
+  %     \midrule
+  %     BoW + soft assignment & 0.676\\
+  %     Bow + nat. soft assignment & 0.69814\\
+  %     Bow + nat. soft + spatial rerank & 0.755482\\
+  %     Bow + nat. soft + query expansion & 0.787189\\
+  %     \bottomrule
+  %   \end{tabular}
+  % \end{table}
+  \begin{figure}
+    \begin{figure}{}
+        \centering
+        \includegraphics[width=4.0in]{ap1.pdf}
+        \caption{APs of queries 1 - 27}
+    \end{figure}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Comparison chart}
+  \begin{figure}{}
+        \centering
+        \includegraphics[width=4.0in]{ap2.pdf}
+        \caption{APs of queries 28 - 55}
+    \end{figure}
+\end{frame}
