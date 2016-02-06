@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.3)  7 FEB 2016 00:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.3)  7 FEB 2016 00:30
 entering extended mode
 **WR227.tex
 (E:\Documents\WR227\Source\WR227\WR227.tex
@@ -260,94 +260,40 @@ Missing character: There is no ™ in font cmr10!
 <flow1.pdf, id=14, 352.25934pt x 216.06824pt>
 File: flow1.pdf Graphic file (type pdf)
  <use flow1.pdf>
-Package pdftex.def Info: flow1.pdf used on input line 9.
+Package pdftex.def Info: flow1.pdf used on input line 10.
 (pdftex.def)             Requested size: 216.81pt x 132.98831pt.
 
 <flow2.pdf, id=15, 492.47418pt x 146.53546pt>
 File: flow2.pdf Graphic file (type pdf)
  <use flow2.pdf>
-Package pdftex.def Info: flow2.pdf used on input line 16.
+Package pdftex.def Info: flow2.pdf used on input line 17.
 (pdftex.def)             Requested size: 216.81pt x 64.51157pt.
-
-
-LaTeX Warning: Citation `Mikolajczyk2004' on page 3 undefined on input line 24.
-
-
-
-LaTeX Warning: Citation `conf/bmvc/MatasCUP02' on page 3 undefined on input lin
-e 24.
-
-
-LaTeX Warning: Citation `Tuytelaars99content-basedimage' on page 3 undefined on
- input line 24.
-
-
-LaTeX Warning: Citation `Tuytelaars00widebaseline' on page 3 undefined on input
- line 24.
-
-[3 <E:/Documents/WR227/Source/WR227/flow1.pdf> <E:/Documents/WR227/Source/WR227
-/flow2.pdf
+ [3 <E:/Documents/WR227/Source/WR227/flow1.pdf> <E:/Documents/WR227/Source/WR22
+7/flow2.pdf
 
 pdfTeX warning: pdflatex.exe (file E:/Documents/WR227/Source/WR227/flow2.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
+>] <ImageRetrievalSystem.pdf, id=175, 963.6pt x 542.025pt>
+File: ImageRetrievalSystem.pdf Graphic file (type pdf)
+
+<use ImageRetrievalSystem.pdf>
+Package pdftex.def Info: ImageRetrievalSystem.pdf used on input line 31.
+(pdftex.def)             Requested size: 216.81pt x 121.95035pt.
+ <process.pdf, id=176, 1445.4pt x 1084.05pt>
+File: process.pdf Graphic file (type pdf)
+
+<use process.pdf>
+Package pdftex.def Info: process.pdf used on input line 38.
+(pdftex.def)             Requested size: 216.81pt x 162.60048pt.
+ [4 <E:/Documents/WR227/Source/WR227/ImageRetrievalSystem.pdf> <E:/Documents/WR
+227/Source/WR227/process.pdf
+
+pdfTeX warning: pdflatex.exe (file E:/Documents/WR227/Source/WR227/process.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Citation `oxbuilding' on page 4 undefined on input line 26.
-
-
-LaTeX Warning: Citation `Lowe2004' on page 4 undefined on input line 26.
-
-
-LaTeX Warning: File `ImageRetrievalSystem.pdf' not found on input line 30.
-
-
-! Package pdftex.def Error: File `ImageRetrievalSystem.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 ...ics[width=3.0in]{ImageRetrievalSystem.pdf}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `process.pdf' not found on input line 37.
-
-
-! Package pdftex.def Error: File `process.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 ...\includegraphics[width=3.0in]{process.pdf}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `2' on page 4 undefined on input line 43.
-
-
-LaTeX Warning: Citation `2' on page 4 undefined on input line 43.
-
-
-LaTeX Warning: Citation `oxbuilding' on page 4 undefined on input line 43.
-
-[4]
-
-LaTeX Warning: Citation `7' on page 5 undefined on input line 47.
-
-
-LaTeX Warning: Citation `7' on page 5 undefined on input line 47.
-
-
 LaTeX Warning: Reference `section:background_relatedworks' on page 5 undefined 
-on input line 53.
+on input line 54.
 
 [5]) (E:\Documents\WR227\Source\WR227\WR227.bbl [6]) [7]
 (E:\Documents\WR227\Source\WR227\WR227.aux)
@@ -357,15 +303,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 2472 strings out of 493921
- 32513 string characters out of 3152894
- 103957 words of memory out of 3000000
- 5759 multiletter control sequences out of 15000+200000
+ 2481 strings out of 493921
+ 32711 string characters out of 3152894
+ 105088 words of memory out of 3000000
+ 5768 multiletter control sequences out of 15000+200000
  8636 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  30i,5n,21p,1151b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -382,9 +325,9 @@ public/amsfonts/cm/cmr9.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><E:/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy9.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmtt9.pfb>
-Output written on WR227.pdf (7 pages, 454628 bytes).
+Output written on WR227.pdf (7 pages, 958993 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
+ 304 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

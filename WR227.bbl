@@ -1,6 +1,9 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
+
+\bibitem{oxbuilding}
+\url{http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/}
 
 \bibitem{Belongie710790}
 Belongie, S., Carson, C., Greenspan, H., Malik, J.: Color- and texture-based
@@ -29,6 +32,28 @@ Lan, T., Mori, G.: A max-margin riffled independence model for image tag
   ranking. In: The IEEE Conference on Computer Vision and Pattern Recognition
   (CVPR) (June 2013)
 
+\bibitem{Lowe2004}
+Lowe, D.: Distinctive image features from scale-invariant keypoints.
+  International Journal of Computer Vision  60(2),  91--110 (2004)
+
+\bibitem{conf/bmvc/MatasCUP02}
+Matas, J., Chum, O., Urban, M., Pajdla, T.: Robust wide baseline stereo from
+  maximally stable extremal regions. In: Rosin, P.L., Marshall, A.D. (eds.)
+  BMVC. British Machine Vision Association (2002)
+
+\bibitem{Mikolajczyk2004}
+Mikolajczyk, K., Schmid, C.: Scale \& affine invariant interest point
+  detectors. International Journal of Computer Vision  60(1),  63--86 (2004)
+
+\bibitem{2}
+Philbin, J., Chum, O., Isard, M., Sivic, J., Zisserman, A.: Object retrieval
+  with large vocabularies and fast spatial matching. In: Proc. CVPR (2007)
+
+\bibitem{7}
+Philbin, J., Isard, M., Sivic, J., Zisserman, A.: Lost in quantization:
+  Improving particular object retrieval in large scale image databases. In:
+  Proc. CVPR (2008)
+
 \bibitem{Rosenfeld4309663}
 Rosenfeld, A., Vanderburg, G.J.: Coarse-fine template matching. Systems, Man
   and Cybernetics, IEEE Transactions on  7(2),  104--107 (Feb 1977)
@@ -37,6 +62,15 @@ Rosenfeld, A., Vanderburg, G.J.: Coarse-fine template matching. Systems, Man
 Rubner, Y., Tomasi, C., Guibas, L.: The earth mover's distance as a metric for
   image retrieval. International Journal of Computer Vision  40(2),  99--121
   (2000)
+
+\bibitem{Tuytelaars99content-basedimage}
+Tuytelaars, T., Gool, L.V.: Content-based image retrieval based on local
+  affinely invariant regions. In: In Int. Conf. on Visual Information Systems.
+  pp. 493--500 (1999)
+
+\bibitem{Tuytelaars00widebaseline}
+Tuytelaars, T., Gool, L.V.: Wide baseline stereo matching based on local,
+  affinely invariant regions. In: In Proc. BMVC. pp. 412--425 (2000)
 
 \bibitem{Viola990517}
 Viola, P., Jones, M.: Rapid object detection using a boosted cascade of simple

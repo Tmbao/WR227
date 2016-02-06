@@ -1,8 +1,9 @@
 \section{Proposed System} \label{section:proposed_system}
 \subsection {How our system learn and automatically annotate new photos} \label{section:main_flow}
-Figure 1 illustrates the overview of our proposed system to automatically recommend personalized annotations for newly uploaded photos. Firstly, users simply use their smartphone’s camera to capture scenes or objects in real life such as books, dogs or buildings. These photos are then sent to our server for processing and our server will return the list of visual similar photos. Additionally, each photo attaches a list of annotations and these possible personalized annotations will be re-ranked and sent to the users. The users will have chances to review and approve these personalized annotations before sharing these photos to social networks such as Facebook, Flickr, or Google Plus along with the approved personalized tags.
 
-Figure 2 shows how our system learns to annotate photo from samples provided by users. Firstly, users manually choose suitable tags for some photos and these photos along with the tags are then sent to the server. Subsequently, our server process will identify and recommend the users to also apply these changes to visual similar photos in their albums. The users will have the rights to approve before these changes take effect in the database. From this point of time, our system will automatically annotate new photos based on these new configurations.
+Figure \ref{fig:flow_1} illustrates the overview of our proposed system to automatically recommend personalized annotations for newly uploaded photos. Firstly, users simply use their smartphones’ cameras to capture scenes or objects in real life such as books, dogs or buildings. These photos are then sent to our server for processing and our server will return the list of visual similar photos. Additionally, each photo attaches a list of annotations and these possible personalized annotations will be re-ranked and sent to the users. The users will have chances to review and approve these personalized annotations before sharing these photos to social networks such as Facebook, Flickr, or Google Plus along with the approved personalized tags.
+
+Figure \ref{fig:flow_2} shows how our system learns to annotate photo from samples provided by users. Firstly, users manually choose suitable tags for some photos and these photos along with the tags are then sent to the server. Subsequently, our server process will identify and recommend the users to also apply these changes to visual similar photos in their albums. The users will have the rights to approve before these changes take effect in the database. From this point of time, our system will automatically annotate new photos based on these new configurations.
 
 \begin{figure}
     \centering
@@ -15,7 +16,7 @@ Figure 2 shows how our system learns to annotate photo from samples provided by 
     \centering
     \includegraphics[width=3.0in]{flow2.pdf}
     \caption{Overview on how our system learn to annotate photo from samples provided by users.}
-    \label{fig:flow_1}
+    \label{fig:flow_2}
 \end{figure}
 
 \subsection{Visual Instance Search Method} \label{section:visual_search}
@@ -44,7 +45,7 @@ Treating each descriptor as an individual visual words in the dictionary results
 
 \subsubsection{Quantization} \label{section:quantization}
 
-Subsequently, each 128-dimension SIFT descriptor needs to be mapped into the dictionary. Commonly, each descriptor is assigned into the nearest word in the dictionary. Thus, when two descriptors are assigned to diferent words, they are considered as totally different. In practice, this hard assignment leads to errors due to variability in descriptor (e.g. image noise, varying scene illumination, instability in the feature detection process ...) \cite{7}. In order to handling this problem, the authors use soft assignment instead of hard assignment. In particular, each 128-dimension SIFT descriptor is reduced to a k-dimension vector of their $k$ nearest visual words in the dictionary. Each of these $k$ nearest cluster is assigned with weights calculated from the formula proposed by Sivic et al. \cite{7}, $weight = \exp(-\frac{d^2}{2\delta^2})$, where $d$ is the distance from the cluster center to descriptor point. Then, by adding all these weights to their corresponding bins, we will have the BoW representation of an image.
+Subsequently, each 128-dimension SIFT descriptor needs to be mapped into the dictionary. Commonly, each descriptor is assigned into the nearest word in the dictionary. Thus, when two descriptors are assigned to different words, they are considered as totally different. In practice, this hard assignment leads to errors due to variability in descriptor (e.g. image noise, varying scene illumination, instability in the feature detection process ...) \cite{7}. In order to handling this problem, the authors use soft assignment instead of hard assignment. In particular, each 128-dimension SIFT descriptor is reduced to a k-dimension vector of their $k$ nearest visual words in the dictionary. Each of these $k$ nearest cluster is assigned with weights calculated from the formula proposed by Sivic et al. \cite{7}, $weight = \exp(-\frac{d^2}{2\delta^2})$, where $d$ is the distance from the cluster center to descriptor point. Then, by adding all these weights to their corresponding bins, we will have the BoW representation of an image.
 
 In this work, $k$ and $\delta^2$ are chosen to be 3 and 6250, respectively.
 

@@ -1,5 +1,11 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: WR227.aux
 The style file: splncs.bst
 Database file #1: refs.bib
+Warning--entry type for "oxbuilding" isn't style-file defined
+--line 351 of file refs.bib
+A bad cross reference---entry "conf/bmvc/MatasCUP02"
+refers to entry "conf/bmvc/2002", which doesn't exist
+Warning--I didn't find a database entry for "conf/bmvc/2002"
+Warning--to sort, need author or key in oxbuilding
 Warning--can't use both volume and number fields in icml2013_chen13e
-(There was 1 warning)
+(There was 1 error message)
