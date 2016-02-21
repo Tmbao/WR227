@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.3)  7 FEB 2016 00:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.3)  21 FEB 2016 23:39
 entering extended mode
 **WR227.tex
 (E:\Documents\WR227\Source\WR227\WR227.tex
@@ -245,58 +245,74 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
-LaTeX Warning: Reference `section:background_relatedworks' on page 2 undefined 
-on input line 22.
-
-
 LaTeX Warning: Reference `section:method' on page 2 undefined on input line 22.
 
 
-) (E:\Documents\WR227\Source\WR227\method.tex
+) (E:\Documents\WR227\Source\WR227\background.tex
+
+LaTeX Warning: Citation ` Werman1985328' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation ` Peleg192468' on page 2 undefined on input line 7.
+
+[2]
+
+LaTeX Warning: Citation ` 6' on page 3 undefined on input line 24.
+
+
+LaTeX Warning: Citation ` 7' on page 3 undefined on input line 24.
+
+[3]) (E:\Documents\WR227\Source\WR227\method.tex
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [2]
-<flow1.pdf, id=14, 352.25934pt x 216.06824pt>
+
+<flow1.pdf, id=19, 352.25934pt x 216.06824pt>
 File: flow1.pdf Graphic file (type pdf)
  <use flow1.pdf>
-Package pdftex.def Info: flow1.pdf used on input line 10.
+Package pdftex.def Info: flow1.pdf used on input line 13.
 (pdftex.def)             Requested size: 216.81pt x 132.98831pt.
 
-<flow2.pdf, id=15, 492.47418pt x 146.53546pt>
+<flow2.pdf, id=20, 492.47418pt x 146.53546pt>
 File: flow2.pdf Graphic file (type pdf)
  <use flow2.pdf>
-Package pdftex.def Info: flow2.pdf used on input line 17.
+Package pdftex.def Info: flow2.pdf used on input line 20.
 (pdftex.def)             Requested size: 216.81pt x 64.51157pt.
- [3 <E:/Documents/WR227/Source/WR227/flow1.pdf> <E:/Documents/WR227/Source/WR22
-7/flow2.pdf
 
-pdfTeX warning: pdflatex.exe (file E:/Documents/WR227/Source/WR227/flow2.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
->] <ImageRetrievalSystem.pdf, id=175, 963.6pt x 542.025pt>
+<ImageRetrievalSystem.pdf, id=21, 963.6pt x 542.025pt>
 File: ImageRetrievalSystem.pdf Graphic file (type pdf)
 
 <use ImageRetrievalSystem.pdf>
-Package pdftex.def Info: ImageRetrievalSystem.pdf used on input line 31.
+Package pdftex.def Info: ImageRetrievalSystem.pdf used on input line 32.
 (pdftex.def)             Requested size: 216.81pt x 121.95035pt.
- <process.pdf, id=176, 1445.4pt x 1084.05pt>
+ <process.pdf, id=22, 1445.4pt x 1084.05pt>
 File: process.pdf Graphic file (type pdf)
 
 <use process.pdf>
-Package pdftex.def Info: process.pdf used on input line 38.
+Package pdftex.def Info: process.pdf used on input line 39.
 (pdftex.def)             Requested size: 216.81pt x 162.60048pt.
- [4 <E:/Documents/WR227/Source/WR227/ImageRetrievalSystem.pdf> <E:/Documents/WR
-227/Source/WR227/process.pdf
+ [4] [5 <E:/Documents/WR227/Source/WR227/flow1.pdf> <E:/Documents/WR227/Source/
+WR227/flow2.pdf
 
-pdfTeX warning: pdflatex.exe (file E:/Documents/WR227/Source/WR227/process.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
->]
+pdfTeX warning: pdflatex.exe (file E:/Documents/WR227/Source/WR227/flow2.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <E:/Documents/WR227/Source/WR227/ImageRetrievalSystem.pdf
 
-LaTeX Warning: Reference `section:background_relatedworks' on page 5 undefined 
-on input line 54.
+pdfTeX warning: pdflatex.exe (file E:/Documents/WR227/Source/WR227/ImageRetriev
+alSystem.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+>] [6 <E:/Documents/WR227/Source/WR227/process.pdf>])
+(E:\Documents\WR227\Source\WR227\conclusion.tex)
+(E:\Documents\WR227\Source\WR227\WR227.bbl [7]
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¼ in font cmr9!
 
-[5]) (E:\Documents\WR227\Source\WR227\WR227.bbl [6]) [7]
-(E:\Documents\WR227\Source\WR227\WR227.aux)
+Underfull \hbox (badness 2460) in paragraph at lines 87--90
+\OT1/cmr/m/n/9 puter Vi-sion, Graph-ics, and Im-age Pro-cess-ing 23(2), 187 -- 
+206 (1983),
+ []
+
+[8]) [9] (E:\Documents\WR227\Source\WR227\WR227.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -305,13 +321,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2481 strings out of 493921
- 32711 string characters out of 3152894
- 105088 words of memory out of 3000000
- 5768 multiletter control sequences out of 15000+200000
+ 2502 strings out of 493921
+ 33114 string characters out of 3152894
+ 105168 words of memory out of 3000000
+ 5783 multiletter control sequences out of 15000+200000
  8636 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 30i,5n,21p,1151b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,5n,21p,1151b,235s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmbx12.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx9.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/MiKT
@@ -325,9 +341,9 @@ public/amsfonts/cm/cmr9.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><E:/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy9.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmtt9.pfb>
-Output written on WR227.pdf (7 pages, 958993 bytes).
+Output written on WR227.pdf (9 pages, 968180 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
+ 310 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

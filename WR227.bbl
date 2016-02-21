@@ -32,9 +32,9 @@ Lan, T., Mori, G.: A max-margin riffled independence model for image tag
   ranking. In: The IEEE Conference on Computer Vision and Pattern Recognition
   (CVPR) (June 2013)
 
-\bibitem{Lowe2004}
-Lowe, D.: Distinctive image features from scale-invariant keypoints.
-  International Journal of Computer Vision  60(2),  91--110 (2004)
+\bibitem{4}
+Manning, C.D., Raghavan, P., Schütze, H.: Introduction to Information
+  Retrieval. Cambridge University Press (2008)
 
 \bibitem{conf/bmvc/MatasCUP02}
 Matas, J., Chum, O., Urban, M., Pajdla, T.: Robust wide baseline stereo from
@@ -44,6 +44,26 @@ Matas, J., Chum, O., Urban, M., Pajdla, T.: Robust wide baseline stereo from
 \bibitem{Mikolajczyk2004}
 Mikolajczyk, K., Schmid, C.: Scale \& affine invariant interest point
   detectors. International Journal of Computer Vision  60(1),  63--86 (2004)
+
+\bibitem{5}
+Nister, D., Stewenius, H.: Scalable recognition with a vocabulary tree. In:
+  Proc. CVPR (2006)
+
+\bibitem{Ouyang5770267}
+Ouyang, W., Tombari, F., Mattoccia, S., Di~Stefano, L., Cham, W.K.: Performance
+  evaluation of full search equivalent pattern matching algorithms. Pattern
+  Analysis and Machine Intelligence, IEEE Transactions on  34(1),  127--143
+  (Jan 2012)
+
+\bibitem{Peleg192468}
+Peleg, S., Werman, M., Rom, H.: A unified approach to the change of resolution:
+  space and gray-level. Pattern Analysis and Machine Intelligence, IEEE
+  Transactions on  11(7),  739--742 (Jul 1989)
+
+\bibitem{perdoch}
+Perd'och, M., Chum, O., Matas, J.: Efficient representation of local geometry
+  for large scale object retrieval. In: Computer Vision and Pattern
+  Recognition, 2009. CVPR 2009. IEEE Conference on. pp. 9--16 (June 2009)
 
 \bibitem{2}
 Philbin, J., Chum, O., Isard, M., Sivic, J., Zisserman, A.: Object retrieval
@@ -62,6 +82,15 @@ Rosenfeld, A., Vanderburg, G.J.: Coarse-fine template matching. Systems, Man
 Rubner, Y., Tomasi, C., Guibas, L.: The earth mover's distance as a metric for
   image retrieval. International Journal of Computer Vision  40(2),  99--121
   (2000)
+
+\bibitem{Shen1983187}
+Shen, H.C., Wong, A.K.: Generalized texture representation and metric. Computer
+  Vision, Graphics, and Image Processing  23(2),  187 -- 206 (1983),
+  \url{http://www.sciencedirect.com/science/article/pii/0734189X83901123}
+
+\bibitem{3}
+Sivic, J., Zisserman, A.: Video google: A text retrieval approach to object
+  matching in videos. In: Proc. ICCV (2003)
 
 \bibitem{Tuytelaars99content-basedimage}
 Tuytelaars, T., Gool, L.V.: Content-based image retrieval based on local

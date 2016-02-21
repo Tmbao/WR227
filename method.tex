@@ -1,4 +1,7 @@
 \section{Proposed System} \label{section:proposed_system}
+
+In this section, we will show how our system can learn to annotate different photos and briefly describe main steps in our BoW model.
+
 \subsection {How our system learn and automatically annotate new photos} \label{section:main_flow}
 
 Figure \ref{fig:flow_1} illustrates the overview of our proposed system to automatically recommend personalized annotations for newly uploaded photos. Firstly, users simply use their smartphones’ cameras to capture scenes or objects in real life such as books, dogs or buildings. These photos are then sent to our server for processing and our server will return the list of visual similar photos. Additionally, each photo attaches a list of annotations and these possible personalized annotations will be re-ranked and sent to the users. The users will have chances to review and approve these personalized annotations before sharing these photos to social networks such as Facebook, Flickr, or Google Plus along with the approved personalized tags.
@@ -22,9 +25,7 @@ Figure \ref{fig:flow_2} shows how our system learns to annotate photo from sampl
 \subsection{Visual Instance Search Method} \label{section:visual_search}
 \subsubsection{Feature Extraction} \label{section:feature_extraction}
 
-To detect and extract features from images, there are many methods that have been proposed (Harris-Affine, Hessian-Affine detectors \cite{Mikolajczyk2004}, Maximally stable extremal region (MSER) detector \cite{conf/bmvc/MatasCUP02}, Edge-based region detector \cite{Tuytelaars99content-basedimage}, Intensity extrema-based region detector \cite{Tuytelaars00widebaseline} ...). The authors choose to use Hessian-Affine detector, for detecting and extracting features from images. By using Hessian-Affine detector, which is also used in other baseline methods, our experiment's result can easily be compared with other ones.
-
-As we tested on Oxford Building 5K Dataset \cite{oxbuilding}, there are typically 3,300 features for each image and a total about 16 millions of features for the whole dataset. Then, we compute the SIFT descriptor \cite{Lowe2004} of all the features and these descriptors is used for matching images in the next step.
+To detect and extract features from images, there are many methods that have been proposed (Harris-Affine, Hessian-Affine detectors \cite{Mikolajczyk2004}, Maximally stable extremal region (MSER) detector \cite{conf/bmvc/MatasCUP02}, Edge-based region detector \cite{Tuytelaars99content-basedimage}, Intensity extrema-based region detector \cite{Tuytelaars00widebaseline} ...). The authors choose to use Hessian-Affine detector, for detecting and extracting features from images. In our version of BoW model, we use Perd'och's implementation of SIFT detector, which is shown to perform best on Oxford Building Dataset \cite{perdoch}.
 
 \begin{figure}
     \centering
