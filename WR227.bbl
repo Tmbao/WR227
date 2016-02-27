@@ -2,9 +2,6 @@
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 
-\bibitem{oxbuilding}
-\url{http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/}
-
 \bibitem{Belongie710790}
 Belongie, S., Carson, C., Greenspan, H., Malik, J.: Color- and texture-based
   image segmentation using em and its application to content-based image
@@ -55,6 +52,9 @@ Ouyang, W., Tombari, F., Mattoccia, S., Di~Stefano, L., Cham, W.K.: Performance
   Analysis and Machine Intelligence, IEEE Transactions on  34(1),  127--143
   (Jan 2012)
 
+\bibitem{oxbuilding}
+\url{http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/}
+
 \bibitem{Peleg192468}
 Peleg, S., Werman, M., Rom, H.: A unified approach to the change of resolution:
   space and gray-level. Pattern Analysis and Machine Intelligence, IEEE
@@ -83,6 +83,10 @@ Rubner, Y., Tomasi, C., Guibas, L.: The earth mover's distance as a metric for
   image retrieval. International Journal of Computer Vision  40(2),  99--121
   (2000)
 
+\bibitem{6}
+Schindler, G., Brown, M., , Szeliski, R.: City-scale location recognition. In:
+  Proc. CVPR (2007)
+
 \bibitem{Shen1983187}
 Shen, H.C., Wong, A.K.: Generalized texture representation and metric. Computer
   Vision, Graphics, and Image Processing  23(2),  187 -- 206 (1983),
@@ -106,5 +110,11 @@ Viola, P., Jones, M.: Rapid object detection using a boosted cascade of simple
   features. In: Computer Vision and Pattern Recognition, 2001. CVPR 2001.
   Proceedings of the 2001 IEEE Computer Society Conference on. vol.~1, pp.
   I--511--I--518 vol.1 (2001)
+
+\bibitem{Werman1985328}
+Werman, M., Peleg, S., Rosenfeld, A.: A distance metric for multidimensional
+  histograms. Computer Vision, Graphics, and Image Processing  32(3),  328 --
+  336 (1985),
+  \url{http://www.sciencedirect.com/science/article/pii/0734189X85900556}
 
 \end{thebibliography}
