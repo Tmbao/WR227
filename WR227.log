@@ -1,25 +1,18 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.3)  26 FEB 2016 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.30)  28 FEB 2016 12:15
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **WR227.tex
-(E:\Documents\WR227\Source\WR227\WR227.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-(C:\localtexmf\tex\latex\misc\llncs.cls
+(/home/tmbao/Sources/WR227/WR227.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 2 languages loaded.
+(/home/tmbao/Sources/WR227/llncs.cls
 Document Class: llncs 2014/03/31 v2.19 
  LaTeX document class for Lecture Notes in Computer Science
-("E:\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("E:\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -33,8 +26,8 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("E:\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \c@tracingmulticols=\count87
 \mult@box=\box26
 \multicol@leftmargin=\dimen103
@@ -51,6 +44,7 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \multicolbaselineskip=\skip44
 \partial@page=\box27
 \last@line=\box28
+\maxbalancingoverflow=\dimen108
 \mult@rightbox=\box29
 \mult@grightbox=\box30
 \mult@gfirstbox=\box31
@@ -74,17 +68,16 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box49
 \c@columnbadness=\count93
 \c@finalcolumnbadness=\count94
-\last@try=\dimen108
-\multicolovershoot=\dimen109
-\multicolundershoot=\dimen110
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
-\multicol@sort@counter=\count95
+\mc@col@check@num=\count95
 )
-(C:\localtexmf\tex\latex\misc\aliascnt.sty
+(/home/tmbao/Sources/WR227/aliascnt.sty
 Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
-
-(C:\localtexmf\tex\latex\misc\remreset.sty))
+ (/home/tmbao/Sources/WR227/remreset.sty))
 \c@chapter=\count96
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
@@ -97,22 +90,22 @@ LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
 LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
 LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
 LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
-\tocchpnum=\dimen111
-\tocsecnum=\dimen112
-\tocsectotal=\dimen113
-\tocsubsecnum=\dimen114
-\tocsubsectotal=\dimen115
-\tocsubsubsecnum=\dimen116
-\tocsubsubsectotal=\dimen117
-\tocparanum=\dimen118
-\tocparatotal=\dimen119
-\tocsubparanum=\dimen120
+\tocchpnum=\dimen112
+\tocsecnum=\dimen113
+\tocsectotal=\dimen114
+\tocsubsecnum=\dimen115
+\tocsubsectotal=\dimen116
+\tocsubsubsecnum=\dimen117
+\tocsubsubsectotal=\dimen118
+\tocparanum=\dimen119
+\tocparatotal=\dimen120
+\tocsubparanum=\dimen121
 \@tempcntc=\count97
-\fnindent=\dimen121
+\fnindent=\dimen122
 \c@@inst=\count98
 \c@@auth=\count99
 \c@auco=\count100
-\instindent=\dimen122
+\instindent=\dimen123
 \authrun=\box52
 \authorrunning=\toks14
 \tocauthor=\toks15
@@ -134,85 +127,79 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \c@question=\count113
 \c@solution=\count114
 \c@remark=\count115
-\headlineindent=\dimen123
-)
-("E:\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+\headlineindent=\dimen124
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("E:\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-("E:\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("E:\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("E:\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-("E:\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("E:\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("E:\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count116
 ))
-\Gin@req@height=\dimen124
-\Gin@req@width=\dimen125
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
 )
-("E:\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
-Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
+(/home/tmbao/Sources/WR227/csquotes.sty
+Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
 
-("E:\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
-
-("E:\MiKTeX 2.9\tex\latex\misc\etex.sty"
-Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count117
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count117
 )
-\etb@tempcnta=\count118
-)
-\csq@reset=\count119
-\csq@gtype=\count120
-\csq@glevel=\count121
-\csq@qlevel=\count122
-\csq@maxlvl=\count123
-\csq@tshold=\count124
+\csq@reset=\count118
+\csq@gtype=\count119
+\csq@glevel=\count120
+\csq@qlevel=\count121
+\csq@maxlvl=\count122
+\csq@tshold=\count123
 \csq@ltx@everypar=\toks19
 
-("E:\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
-File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
+(/home/tmbao/Sources/WR227/csquotes.def
+File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-("E:\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg"
+(/home/tmbao/Sources/WR227/csquotes.cfg
 File: csquotes.cfg 
 ))
-("E:\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("E:\MiKTeX 2.9\tex\latex\caption\caption.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-("E:\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen126
-\captionmargin@=\dimen127
-\captionwidth=\dimen128
-\caption@tempdima=\dimen129
-\caption@indent=\dimen130
-\caption@parindent=\dimen131
-\caption@hangindent=\dimen132
+\captionmargin=\dimen127
+\captionmargin@=\dimen128
+\captionwidth=\dimen129
+\caption@tempdima=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -225,25 +212,47 @@ Package caption Info: \@makecaption = \long macro:#1#2->\small \vskip \abovecap
 tionskip \sbox \@tempboxa {{\bfseries #1.} #2}\ifdim \wd \@tempboxa >\hsize {\b
 fseries #1.} #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@
 tempboxa \hfil }\fi \vskip \belowcaptionskip .
-\c@ContinuedFloat=\count125
+\c@ContinuedFloat=\count124
 )
-\c@KVtest=\count126
+\c@KVtest=\count125
 \sf@farskip=\skip45
-\sf@captopadj=\dimen133
+\sf@captopadj=\dimen134
 \sf@capskip=\skip46
 \sf@nearskip=\skip47
-\c@subfigure=\count127
-\c@subfigure@save=\count128
-\c@lofdepth=\count129
-\c@subtable=\count130
-\c@subtable@save=\count131
-\c@lotdepth=\count132
+\c@subfigure=\count126
+\c@subfigure@save=\count127
+\c@lofdepth=\count128
+\c@subtable=\count129
+\c@subtable@save=\count130
+\c@lotdepth=\count131
 \sf@top=\skip48
 \sf@bottom=\skip49
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen135
+\lightrulewidth=\dimen136
+\cmidrulewidth=\dimen137
+\belowrulesep=\dimen138
+\belowbottomsep=\dimen139
+\aboverulesep=\dimen140
+\abovetopsep=\dimen141
+\cmidrulesep=\dimen142
+\cmidrulekern=\dimen143
+\defaultaddspace=\dimen144
+\@cmidla=\count132
+\@cmidlb=\count133
+\@aboverulesep=\dimen145
+\@belowrulesep=\dimen146
+\@thisruleclass=\count134
+\@lastruleclass=\count135
+\@thisrulewidth=\dimen147
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (E:\Documents\WR227\Source\WR227\WR227.aux)
+
+(/home/tmbao/Sources/WR227/WR227.aux)
+\openout1 = `WR227.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
@@ -257,20 +266,67 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 
-("E:\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
-\scratchdimen=\dimen134
+\scratchcounter=\count136
+\scratchdimen=\dimen148
 \scratchbox=\box54
-\nofMPsegments=\count134
-\nofMParguments=\count135
+\nofMPsegments=\count137
+\nofMParguments=\count138
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count136
-\MPscratchDim=\dimen135
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
+\MPscratchCnt=\count139
+\MPscratchDim=\dimen149
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
 \everyMPtoPDFconversion=\toks21
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -287,51 +343,50 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbraceleft' on input line 17.
 
-(E:\Documents\WR227\Source\WR227\introduction.tex [1
+(/home/tmbao/Sources/WR227/introduction.tex [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]) (E:\Documents\WR227\Sour
-ce\WR227\background.tex
-[2] [3]) (E:\Documents\WR227\Source\WR227\method.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (/home/tmbao/Sources/WR22
+7/background.tex [2] [3])
+(/home/tmbao/Sources/WR227/method.tex
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-<flow1.pdf, id=19, 722.7pt x 406.51875pt>
+<flow1.pdf, id=20, 722.7pt x 406.51875pt>
 File: flow1.pdf Graphic file (type pdf)
  <use flow1.pdf>
 Package pdftex.def Info: flow1.pdf used on input line 13.
 (pdftex.def)             Requested size: 216.81pt x 121.95656pt.
 
-<flow2.pdf, id=20, 722.7pt x 406.51875pt>
+<flow2.pdf, id=21, 722.7pt x 406.51875pt>
 File: flow2.pdf Graphic file (type pdf)
  <use flow2.pdf>
 Package pdftex.def Info: flow2.pdf used on input line 20.
 (pdftex.def)             Requested size: 216.81pt x 121.95656pt.
 
-<ImageRetrievalSystem.pdf, id=21, 963.6pt x 542.025pt>
+<ImageRetrievalSystem.pdf, id=22, 963.6pt x 542.025pt>
 File: ImageRetrievalSystem.pdf Graphic file (type pdf)
 
 <use ImageRetrievalSystem.pdf>
 Package pdftex.def Info: ImageRetrievalSystem.pdf used on input line 32.
 (pdftex.def)             Requested size: 216.81pt x 121.95035pt.
 
-<process.pdf, id=22, 1438.84732pt x 713.12021pt>
+<process.pdf, id=23, 1438.84732pt x 713.12021pt>
 File: process.pdf Graphic file (type pdf)
  <use process.pdf>
 Package pdftex.def Info: process.pdf used on input line 39.
 (pdftex.def)             Requested size: 216.81pt x 107.45306pt.
- [4] [5 <E:/Documents/WR227/Source/WR227/flow1.pdf> <E:/Documents/WR227/Source/
-WR227/flow2.pdf
+ [4] [5 </home/tmbao/Sources/WR227/flow1.pdf> </home/tmbao/Sources/WR227/flow2.
+pdf
 
-pdfTeX warning: pdflatex.exe (file E:/Documents/WR227/Source/WR227/flow2.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <E:/Documents/WR227/Source/WR227/ImageRetrievalSystem.pdf
+pdfTeX warning: pdflatex (file /home/tmbao/Sources/WR227/flow2.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+> </home/tmbao/Sources/WR227/ImageRetrievalSystem.pdf
 
-pdfTeX warning: pdflatex.exe (file E:/Documents/WR227/Source/WR227/ImageRetriev
-alSystem.pdf): PDF inclusion: multiple pdfs with page group included in a singl
-e page
->] [6 <E:/Documents/WR227/Source/WR227/process.pdf>])
-(E:\Documents\WR227\Source\WR227\experiment_result.tex
+pdfTeX warning: pdflatex (file /home/tmbao/Sources/WR227/ImageRetrievalSystem.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>] [6 </home/tmbao/Sources/WR227/process.pdf>])
+(/home/tmbao/Sources/WR227/experiment_result.tex
 
 LaTeX Warning: Reference `fig:oxbuilding' on page 7 undefined on input line 3.
 
@@ -339,151 +394,159 @@ LaTeX Warning: Reference `fig:oxbuilding' on page 7 undefined on input line 3.
 LaTeX Warning: Reference `fig:oxbuilding_query' on page 7 undefined on input li
 ne 3.
 
-[7] <APCS_4.jpg, id=168, 310.15875pt x 206.7725pt>
+[7] <APCS_4.jpg, id=169, 310.15875pt x 206.7725pt>
 File: APCS_4.jpg Graphic file (type jpg)
  <use APCS_4.jpg>
-Package pdftex.def Info: APCS_4.jpg used on input line 20.
-(pdftex.def)             Requested size: 144.54pt x 96.3596pt.
+Package pdftex.def Info: APCS_4.jpg used on input line 19.
+(pdftex.def)             Requested size: 115.63243pt x 77.0883pt.
 
-<APCS_2.jpg, id=169, 963.6pt x 642.4pt>
+<APCS_2.jpg, id=170, 963.6pt x 642.4pt>
 File: APCS_2.jpg Graphic file (type jpg)
  <use APCS_2.jpg>
-Package pdftex.def Info: APCS_2.jpg used on input line 21.
-(pdftex.def)             Requested size: 144.54pt x 96.35583pt.
+Package pdftex.def Info: APCS_2.jpg used on input line 20.
+(pdftex.def)             Requested size: 115.63243pt x 77.08467pt.
 
-<APCS_3.jpg, id=170, 963.6pt x 642.4pt>
+<APCS_3.jpg, id=171, 963.6pt x 642.4pt>
 File: APCS_3.jpg Graphic file (type jpg)
  <use APCS_3.jpg>
-Package pdftex.def Info: APCS_3.jpg used on input line 22.
-(pdftex.def)             Requested size: 144.54pt x 96.35583pt.
+Package pdftex.def Info: APCS_3.jpg used on input line 21.
+(pdftex.def)             Requested size: 115.63243pt x 77.08467pt.
 
-Overfull \hbox (86.49644pt too wide) in paragraph at lines 20--23
- [][][][] 
- []
-
-<singapore_2.jpg, id=171, 4625.28pt x 3468.96pt>
+<singapore_2.jpg, id=172, 1850.112pt x 1387.584pt>
 File: singapore_2.jpg Graphic file (type jpg)
  <use singapore_2.jpg>
-Package pdftex.def Info: singapore_2.jpg used on input line 29.
-(pdftex.def)             Requested size: 144.54pt x 108.40472pt.
+Package pdftex.def Info: singapore_2.jpg used on input line 28.
+(pdftex.def)             Requested size: 115.63243pt x 86.72379pt.
 
-<singapore_3.jpg, id=172, 4625.28pt x 3468.96pt>
+<singapore_3.jpg, id=173, 1850.112pt x 1387.584pt>
 File: singapore_3.jpg Graphic file (type jpg)
  <use singapore_3.jpg>
-Package pdftex.def Info: singapore_3.jpg used on input line 30.
-(pdftex.def)             Requested size: 144.54pt x 108.40472pt.
+Package pdftex.def Info: singapore_3.jpg used on input line 29.
+(pdftex.def)             Requested size: 115.63243pt x 86.72379pt.
 
-<singapore_4.jpg, id=173, 4625.28pt x 3468.96pt>
+<singapore_4.jpg, id=174, 1850.112pt x 1387.584pt>
 File: singapore_4.jpg Graphic file (type jpg)
  <use singapore_4.jpg>
-Package pdftex.def Info: singapore_4.jpg used on input line 31.
-(pdftex.def)             Requested size: 144.54pt x 108.40472pt.
+Package pdftex.def Info: singapore_4.jpg used on input line 30.
+(pdftex.def)             Requested size: 115.63243pt x 86.72379pt.
 
-Overfull \hbox (86.49644pt too wide) in paragraph at lines 29--32
- [][][][] 
- []
-
-<hoian_3.jpg, id=174, 4271.96pt x 2842.62pt>
+<hoian_3.jpg, id=175, 308.352pt x 205.2468pt>
 File: hoian_3.jpg Graphic file (type jpg)
  <use hoian_3.jpg>
-Package pdftex.def Info: hoian_3.jpg used on input line 38.
-(pdftex.def)             Requested size: 144.54pt x 96.162pt.
+Package pdftex.def Info: hoian_3.jpg used on input line 37.
+(pdftex.def)             Requested size: 115.63243pt x 76.96735pt.
 
-<hoian_7.jpg, id=175, 4271.96pt x 2842.62pt>
+<hoian_7.jpg, id=176, 308.352pt x 205.2468pt>
 File: hoian_7.jpg Graphic file (type jpg)
  <use hoian_7.jpg>
-Package pdftex.def Info: hoian_7.jpg used on input line 39.
-(pdftex.def)             Requested size: 144.54pt x 96.162pt.
+Package pdftex.def Info: hoian_7.jpg used on input line 38.
+(pdftex.def)             Requested size: 115.63243pt x 76.96735pt.
 
-<hoian_11.jpg, id=176, 4271.96pt x 2842.62pt>
+<hoian_11.jpg, id=177, 308.352pt x 205.2468pt>
 File: hoian_11.jpg Graphic file (type jpg)
  <use hoian_11.jpg>
-Package pdftex.def Info: hoian_11.jpg used on input line 40.
-(pdftex.def)             Requested size: 144.54pt x 96.162pt.
+Package pdftex.def Info: hoian_11.jpg used on input line 39.
+(pdftex.def)             Requested size: 115.63243pt x 76.96735pt.
 
-Overfull \hbox (86.49644pt too wide) in paragraph at lines 38--41
- [][][][] 
- []
-
-<icpc_1.jpg, id=177, 963.6pt x 642.4pt>
+<icpc_1.jpg, id=178, 963.6pt x 642.4pt>
 File: icpc_1.jpg Graphic file (type jpg)
  <use icpc_1.jpg>
-Package pdftex.def Info: icpc_1.jpg used on input line 47.
-(pdftex.def)             Requested size: 144.54pt x 96.35583pt.
+Package pdftex.def Info: icpc_1.jpg used on input line 46.
+(pdftex.def)             Requested size: 115.63243pt x 77.08467pt.
 
-<icpc_7.jpg, id=178, 963.6pt x 642.4pt>
+<icpc_7.jpg, id=179, 963.6pt x 642.4pt>
 File: icpc_7.jpg Graphic file (type jpg)
  <use icpc_7.jpg>
-Package pdftex.def Info: icpc_7.jpg used on input line 48.
-(pdftex.def)             Requested size: 144.54pt x 96.35583pt.
+Package pdftex.def Info: icpc_7.jpg used on input line 47.
+(pdftex.def)             Requested size: 115.63243pt x 77.08467pt.
 
-<icpc_8.jpg, id=179, 963.6pt x 642.4pt>
+<icpc_8.jpg, id=180, 963.6pt x 642.4pt>
 File: icpc_8.jpg Graphic file (type jpg)
  <use icpc_8.jpg>
-Package pdftex.def Info: icpc_8.jpg used on input line 49.
-(pdftex.def)             Requested size: 144.54pt x 96.35583pt.
+Package pdftex.def Info: icpc_8.jpg used on input line 48.
+(pdftex.def)             Requested size: 115.63243pt x 77.08467pt.
 
-Overfull \hbox (86.49644pt too wide) in paragraph at lines 47--50
- [][][][] 
- []
-
-<thailand_2.jpg, id=180, 722.7pt x 481.8pt>
+<thailand_2.jpg, id=181, 722.7pt x 481.8pt>
 File: thailand_2.jpg Graphic file (type jpg)
  <use thailand_2.jpg>
-Package pdftex.def Info: thailand_2.jpg used on input line 56.
-(pdftex.def)             Requested size: 144.54pt x 96.35829pt.
+Package pdftex.def Info: thailand_2.jpg used on input line 55.
+(pdftex.def)             Requested size: 115.63243pt x 77.08221pt.
 
-<thailand_3.jpg, id=181, 963.6pt x 642.4pt>
+<thailand_3.jpg, id=182, 963.6pt x 642.4pt>
 File: thailand_3.jpg Graphic file (type jpg)
  <use thailand_3.jpg>
-Package pdftex.def Info: thailand_3.jpg used on input line 57.
-(pdftex.def)             Requested size: 144.54pt x 96.35583pt.
+Package pdftex.def Info: thailand_3.jpg used on input line 56.
+(pdftex.def)             Requested size: 115.63243pt x 77.08467pt.
 
-<thailand_4.jpg, id=182, 722.7pt x 481.8pt>
+<thailand_4.jpg, id=183, 722.7pt x 481.8pt>
 File: thailand_4.jpg Graphic file (type jpg)
  <use thailand_4.jpg>
-Package pdftex.def Info: thailand_4.jpg used on input line 58.
-(pdftex.def)             Requested size: 144.54pt x 96.35829pt.
+Package pdftex.def Info: thailand_4.jpg used on input line 57.
+(pdftex.def)             Requested size: 115.63243pt x 77.08221pt.
 
-Overfull \hbox (86.49644pt too wide) in paragraph at lines 56--59
- [][][][] 
- []
 
-<vallet_1.jpg, id=183, 963.6pt x 400.49625pt>
-File: vallet_1.jpg Graphic file (type jpg)
- <use vallet_1.jpg>
-Package pdftex.def Info: vallet_1.jpg used on input line 65.
-(pdftex.def)             Requested size: 144.54pt x 60.07184pt.
+Package caption Warning: \label without proper \caption on input line 88.
+See the caption package documentation for explanation.
 
-<vallet_4.jpg, id=184, 963.6pt x 642.4pt>
-File: vallet_4.jpg Graphic file (type jpg)
- <use vallet_4.jpg>
-Package pdftex.def Info: vallet_4.jpg used on input line 66.
-(pdftex.def)             Requested size: 144.54pt x 96.35583pt.
 
-<vallet_5.jpg, id=185, 963.6pt x 642.4pt>
-File: vallet_5.jpg Graphic file (type jpg)
- <use vallet_5.jpg>
-Package pdftex.def Info: vallet_5.jpg used on input line 67.
-(pdftex.def)             Requested size: 144.54pt x 96.35583pt.
+LaTeX Warning: Reference `tab:detail_result' on page 8 undefined on input line 
+62.
 
-Overfull \hbox (86.49644pt too wide) in paragraph at lines 65--68
- [][][][] 
- []
+<APCS_check_0_query.png, id=184, 926.46124pt x 217.81375pt>
+File: APCS_check_0_query.png Graphic file (type png)
 
-) (E:\Documents\WR227\Source\WR227\conclusion.tex) [8 <E:/Documents/WR227/Sourc
-e/WR227/APCS_4.jpg> <E:/Documents/WR227/Source/WR227/APCS_2.jpg> <E:/Documents/
-WR227/Source/WR227/APCS_3.jpg>] [9 <E:/Documents/WR227/Source/WR227/singapore_2
-.jpg> <E:/Documents/WR227/Source/WR227/singapore_3.jpg> <E:/Documents/WR227/Sou
-rce/WR227/singapore_4.jpg> <E:/Documents/WR227/Source/WR227/hoian_3.jpg> <E:/Do
-cuments/WR227/Source/WR227/hoian_7.jpg> <E:/Documents/WR227/Source/WR227/hoian_
-11.jpg> <E:/Documents/WR227/Source/WR227/icpc_1.jpg> <E:/Documents/WR227/Source
-/WR227/icpc_7.jpg> <E:/Documents/WR227/Source/WR227/icpc_8.jpg>]
-(E:\Documents\WR227\Source\WR227\WR227.bbl [10 <E:/Documents/WR227/Source/WR227
-/thailand_2.jpg> <E:/Documents/WR227/Source/WR227/thailand_3.jpg> <E:/Documents
-/WR227/Source/WR227/thailand_4.jpg> <E:/Documents/WR227/Source/WR227/vallet_1.j
-pg> <E:/Documents/WR227/Source/WR227/vallet_4.jpg> <E:/Documents/WR227/Source/W
-R227/vallet_5.jpg>]
+<use APCS_check_0_query.png>
+Package pdftex.def Info: APCS_check_0_query.png used on input line 67.
+(pdftex.def)             Requested size: 216.81pt x 50.9702pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 68.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 68.
+
+<Merlion_check_0_query.jpg, id=186, 1028.84375pt x 622.325pt>
+File: Merlion_check_0_query.jpg Graphic file (type jpg)
+
+<use Merlion_check_0_query.jpg>
+Package pdftex.def Info: Merlion_check_0_query.jpg used on input line 72.
+(pdftex.def)             Requested size: 108.405pt x 65.5692pt.
+
+<thailand_check_0_query.jpg, id=187, 722.7pt x 481.8pt>
+File: thailand_check_0_query.jpg Graphic file (type jpg)
+
+<use thailand_check_0_query.jpg>
+Package pdftex.def Info: thailand_check_0_query.jpg used on input line 73.
+(pdftex.def)             Requested size: 108.405pt x 72.26688pt.
+
+<ACM_check_0_query.png, id=188, 263.98625pt x 211.79124pt>
+File: ACM_check_0_query.png Graphic file (type png)
+
+<use ACM_check_0_query.png>
+Package pdftex.def Info: ACM_check_0_query.png used on input line 78.
+(pdftex.def)             Requested size: 101.17755pt x 81.17308pt.
+
+<Hoian_check_0_query.jpg, id=189, 308.352pt x 205.2468pt>
+File: Hoian_check_0_query.jpg Graphic file (type jpg)
+
+<use Hoian_check_0_query.jpg>
+Package pdftex.def Info: Hoian_check_0_query.jpg used on input line 79.
+(pdftex.def)             Requested size: 115.63243pt x 76.96735pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (/home/tmbao/Sources/WR227/conclusion.tex) [8 </home/tmbao/Sources/WR227/APCS
+_4.jpg> </home/tmbao/Sources/WR227/APCS_2.jpg> </home/tmbao/Sources/WR227/APCS_
+3.jpg>] [9 </home/tmbao/Sources/WR227/singapore_2.jpg> </home/tmbao/Sources/WR2
+27/singapore_3.jpg> </home/tmbao/Sources/WR227/singapore_4.jpg> </home/tmbao/So
+urces/WR227/hoian_3.jpg> </home/tmbao/Sources/WR227/hoian_7.jpg> </home/tmbao/S
+ources/WR227/hoian_11.jpg> </home/tmbao/Sources/WR227/icpc_1.jpg> </home/tmbao/
+Sources/WR227/icpc_7.jpg> </home/tmbao/Sources/WR227/icpc_8.jpg> </home/tmbao/S
+ources/WR227/thailand_2.jpg> </home/tmbao/Sources/WR227/thailand_3.jpg> </home/
+tmbao/Sources/WR227/thailand_4.jpg>] (/home/tmbao/Sources/WR227/WR227.bbl
+[10 </home/tmbao/Sources/WR227/APCS_check_0_query.png> </home/tmbao/Sources/WR2
+27/Merlion_check_0_query.jpg> </home/tmbao/Sources/WR227/thailand_check_0_query
+.jpg> </home/tmbao/Sources/WR227/ACM_check_0_query.png> </home/tmbao/Sources/WR
+227/Hoian_check_0_query.jpg>]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¼ in font cmr9!
 
@@ -492,38 +555,46 @@ Underfull \hbox (badness 2460) in paragraph at lines 91--94
 206 (1983),
  []
 
-[11]) [12] (E:\Documents\WR227\Source\WR227\WR227.aux)
+[11]) [12] (/home/tmbao/Sources/WR227/WR227.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 3795 strings out of 493921
- 55992 string characters out of 3152894
- 136385 words of memory out of 3000000
- 7044 multiletter control sequences out of 15000+200000
- 8674 words of font info for 31 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 44i,6n,42p,1419b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
-<E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmex10.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><E:/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10
-.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><E:/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr5.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><E:/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-7.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><E:/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb><E:/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmtt9.pfb>
-Output written on WR227.pdf (12 pages, 30860612 bytes).
+ 4205 strings out of 495000
+ 64223 string characters out of 6181169
+ 142083 words of memory out of 5000000
+ 7358 multiletter control sequences out of 15000+600000
+ 9943 words of font info for 35 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 44i,8n,42p,1419b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on /home/tmbao/Sources/WR227/WR227.pdf (12 pages, 16160847 bytes
+).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
