@@ -1,22 +1,22 @@
-PWD /home/tmbao/Sources/WR227
+PWD /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/tmbao/Sources/WR227/WR227.tex
-OUTPUT /home/tmbao/Sources/WR227/WR227.log
-INPUT /home/tmbao/Sources/WR227/llncs.cls
-INPUT /home/tmbao/Sources/WR227/llncs.cls
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/WR227.tex
+OUTPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/WR227.log
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/llncs.cls
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/llncs.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /home/tmbao/Sources/WR227/aliascnt.sty
-INPUT /home/tmbao/Sources/WR227/aliascnt.sty
-INPUT /home/tmbao/Sources/WR227/remreset.sty
-INPUT /home/tmbao/Sources/WR227/remreset.sty
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/aliascnt.sty
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/aliascnt.sty
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/remreset.sty
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/remreset.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
@@ -33,14 +33,14 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT /home/tmbao/Sources/WR227/csquotes.sty
-INPUT /home/tmbao/Sources/WR227/csquotes.sty
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/csquotes.sty
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/csquotes.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT /home/tmbao/Sources/WR227/csquotes.def
-INPUT /home/tmbao/Sources/WR227/csquotes.def
-INPUT /home/tmbao/Sources/WR227/csquotes.cfg
-INPUT /home/tmbao/Sources/WR227/csquotes.cfg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/csquotes.def
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/csquotes.def
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/csquotes.cfg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/csquotes.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
@@ -49,9 +49,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
-INPUT /home/tmbao/Sources/WR227/WR227.aux
-INPUT /home/tmbao/Sources/WR227/WR227.aux
-OUTPUT /home/tmbao/Sources/WR227/WR227.aux
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/WR227.aux
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/WR227.aux
+OUTPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/WR227.aux
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
@@ -80,29 +80,29 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
-INPUT /home/tmbao/Sources/WR227/introduction.tex
-INPUT /home/tmbao/Sources/WR227/introduction.tex
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/introduction.tex
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/introduction.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-OUTPUT /home/tmbao/Sources/WR227/WR227.pdf
+OUTPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/WR227.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /home/tmbao/Sources/WR227/background.tex
-INPUT /home/tmbao/Sources/WR227/background.tex
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/background.tex
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/background.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /home/tmbao/Sources/WR227/method.tex
-INPUT /home/tmbao/Sources/WR227/method.tex
-INPUT /home/tmbao/Sources/WR227/flow1.pdf
-INPUT /home/tmbao/Sources/WR227/flow1.pdf
-INPUT /home/tmbao/Sources/WR227/flow1.pdf
-INPUT /home/tmbao/Sources/WR227/flow2.pdf
-INPUT /home/tmbao/Sources/WR227/flow2.pdf
-INPUT /home/tmbao/Sources/WR227/flow2.pdf
-INPUT /home/tmbao/Sources/WR227/ImageRetrievalSystem.pdf
-INPUT /home/tmbao/Sources/WR227/ImageRetrievalSystem.pdf
-INPUT /home/tmbao/Sources/WR227/ImageRetrievalSystem.pdf
-INPUT /home/tmbao/Sources/WR227/process.pdf
-INPUT /home/tmbao/Sources/WR227/process.pdf
-INPUT /home/tmbao/Sources/WR227/process.pdf
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/method.tex
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/method.tex
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/flow1.pdf
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/flow1.pdf
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/flow1.pdf
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/flow2.pdf
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/flow2.pdf
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/flow2.pdf
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/ImageRetrievalSystem.pdf
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/ImageRetrievalSystem.pdf
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/ImageRetrievalSystem.pdf
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/process.pdf
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/process.pdf
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/process.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
@@ -111,80 +111,82 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
-INPUT /home/tmbao/Sources/WR227/experiment_result.tex
-INPUT /home/tmbao/Sources/WR227/experiment_result.tex
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/experiment_result.tex
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/experiment_result.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT /home/tmbao/Sources/WR227/APCS_4.jpg
-INPUT /home/tmbao/Sources/WR227/APCS_4.jpg
-INPUT /home/tmbao/Sources/WR227/APCS_4.jpg
-INPUT /home/tmbao/Sources/WR227/APCS_2.jpg
-INPUT /home/tmbao/Sources/WR227/APCS_2.jpg
-INPUT /home/tmbao/Sources/WR227/APCS_2.jpg
-INPUT /home/tmbao/Sources/WR227/APCS_3.jpg
-INPUT /home/tmbao/Sources/WR227/APCS_3.jpg
-INPUT /home/tmbao/Sources/WR227/APCS_3.jpg
-INPUT /home/tmbao/Sources/WR227/singapore_2.jpg
-INPUT /home/tmbao/Sources/WR227/singapore_2.jpg
-INPUT /home/tmbao/Sources/WR227/singapore_2.jpg
-INPUT /home/tmbao/Sources/WR227/singapore_3.jpg
-INPUT /home/tmbao/Sources/WR227/singapore_3.jpg
-INPUT /home/tmbao/Sources/WR227/singapore_3.jpg
-INPUT /home/tmbao/Sources/WR227/singapore_4.jpg
-INPUT /home/tmbao/Sources/WR227/singapore_4.jpg
-INPUT /home/tmbao/Sources/WR227/singapore_4.jpg
-INPUT /home/tmbao/Sources/WR227/hoian_3.jpg
-INPUT /home/tmbao/Sources/WR227/hoian_3.jpg
-INPUT /home/tmbao/Sources/WR227/hoian_3.jpg
-INPUT /home/tmbao/Sources/WR227/hoian_7.jpg
-INPUT /home/tmbao/Sources/WR227/hoian_7.jpg
-INPUT /home/tmbao/Sources/WR227/hoian_7.jpg
-INPUT /home/tmbao/Sources/WR227/hoian_11.jpg
-INPUT /home/tmbao/Sources/WR227/hoian_11.jpg
-INPUT /home/tmbao/Sources/WR227/hoian_11.jpg
-INPUT /home/tmbao/Sources/WR227/icpc_1.jpg
-INPUT /home/tmbao/Sources/WR227/icpc_1.jpg
-INPUT /home/tmbao/Sources/WR227/icpc_1.jpg
-INPUT /home/tmbao/Sources/WR227/icpc_7.jpg
-INPUT /home/tmbao/Sources/WR227/icpc_7.jpg
-INPUT /home/tmbao/Sources/WR227/icpc_7.jpg
-INPUT /home/tmbao/Sources/WR227/icpc_8.jpg
-INPUT /home/tmbao/Sources/WR227/icpc_8.jpg
-INPUT /home/tmbao/Sources/WR227/icpc_8.jpg
-INPUT /home/tmbao/Sources/WR227/thailand_2.jpg
-INPUT /home/tmbao/Sources/WR227/thailand_2.jpg
-INPUT /home/tmbao/Sources/WR227/thailand_2.jpg
-INPUT /home/tmbao/Sources/WR227/thailand_3.jpg
-INPUT /home/tmbao/Sources/WR227/thailand_3.jpg
-INPUT /home/tmbao/Sources/WR227/thailand_3.jpg
-INPUT /home/tmbao/Sources/WR227/thailand_4.jpg
-INPUT /home/tmbao/Sources/WR227/thailand_4.jpg
-INPUT /home/tmbao/Sources/WR227/thailand_4.jpg
-INPUT /home/tmbao/Sources/WR227/APCS_check_0_query.png
-INPUT /home/tmbao/Sources/WR227/APCS_check_0_query.png
-INPUT /home/tmbao/Sources/WR227/APCS_check_0_query.png
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_4.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_4.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_4.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_2.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_2.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_2.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_3.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_3.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_3.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/singapore_2.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/singapore_2.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/singapore_2.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/singapore_3.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/singapore_3.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/singapore_3.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/singapore_4.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/singapore_4.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/singapore_4.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/hoian_3.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/hoian_3.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/hoian_3.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/hoian_7.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/hoian_7.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/hoian_7.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/hoian_11.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/hoian_11.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/hoian_11.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/icpc_1.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/icpc_1.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/icpc_1.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/icpc_7.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/icpc_7.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/icpc_7.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/icpc_8.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/icpc_8.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/icpc_8.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/thailand_2.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/thailand_2.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/thailand_2.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/thailand_3.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/thailand_3.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/thailand_3.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/thailand_4.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/thailand_4.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/thailand_4.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_check_0_query.png
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_check_0_query.png
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_check_0_query.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /home/tmbao/Sources/WR227/Merlion_check_0_query.jpg
-INPUT /home/tmbao/Sources/WR227/Merlion_check_0_query.jpg
-INPUT /home/tmbao/Sources/WR227/Merlion_check_0_query.jpg
-INPUT /home/tmbao/Sources/WR227/thailand_check_0_query.jpg
-INPUT /home/tmbao/Sources/WR227/thailand_check_0_query.jpg
-INPUT /home/tmbao/Sources/WR227/thailand_check_0_query.jpg
-INPUT /home/tmbao/Sources/WR227/ACM_check_0_query.png
-INPUT /home/tmbao/Sources/WR227/ACM_check_0_query.png
-INPUT /home/tmbao/Sources/WR227/ACM_check_0_query.png
-INPUT /home/tmbao/Sources/WR227/Hoian_check_0_query.jpg
-INPUT /home/tmbao/Sources/WR227/Hoian_check_0_query.jpg
-INPUT /home/tmbao/Sources/WR227/Hoian_check_0_query.jpg
-INPUT /home/tmbao/Sources/WR227/conclusion.tex
-INPUT /home/tmbao/Sources/WR227/conclusion.tex
-INPUT /home/tmbao/Sources/WR227/WR227.bbl
-INPUT /home/tmbao/Sources/WR227/WR227.bbl
-INPUT /home/tmbao/Sources/WR227/WR227.aux
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/Merlion_check_0_query.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/Merlion_check_0_query.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/Merlion_check_0_query.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/thailand_check_0_query.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/thailand_check_0_query.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/thailand_check_0_query.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/ACM_check_0_query.png
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/ACM_check_0_query.png
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/ACM_check_0_query.png
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/Hoian_check_0_query.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/Hoian_check_0_query.jpg
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/Hoian_check_0_query.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/conclusion.tex
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/conclusion.tex
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/WR227.bbl
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/WR227.bbl
+INPUT /home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/WR227.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb

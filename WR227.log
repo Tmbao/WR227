@@ -1,12 +1,16 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.30)  28 FEB 2016 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.30)  28 FEB 2016 20:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **WR227.tex
-(/home/tmbao/Sources/WR227/WR227.tex
+
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/WR227.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 2 languages loaded.
-(/home/tmbao/Sources/WR227/llncs.cls
+
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/llncs.cls
 Document Class: llncs 2014/03/31 v2.19 
  LaTeX document class for Lecture Notes in Computer Science
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -75,9 +79,12 @@ Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \colbreak@box=\box51
 \mc@col@check@num=\count95
 )
-(/home/tmbao/Sources/WR227/aliascnt.sty
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/aliascnt.sty
 Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
- (/home/tmbao/Sources/WR227/remreset.sty))
+
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/remreset.sty))
 \c@chapter=\count96
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
@@ -128,7 +135,8 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \c@solution=\count114
 \c@remark=\count115
 \headlineindent=\dimen124
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
@@ -160,7 +168,8 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
 )
-(/home/tmbao/Sources/WR227/csquotes.sty
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/csquotes.sty
 Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -175,13 +184,15 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \csq@tshold=\count123
 \csq@ltx@everypar=\toks19
 
-(/home/tmbao/Sources/WR227/csquotes.def
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/csquotes.def
 File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(/home/tmbao/Sources/WR227/csquotes.cfg
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/csquotes.cfg
 File: csquotes.cfg 
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
@@ -250,7 +261,8 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
-(/home/tmbao/Sources/WR227/WR227.aux)
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/WR227.aux)
 \openout1 = `WR227.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -343,11 +355,15 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbraceleft' on input line 17.
 
-(/home/tmbao/Sources/WR227/introduction.tex [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (/home/tmbao/Sources/WR22
-7/background.tex [2] [3])
-(/home/tmbao/Sources/WR227/method.tex
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/introduction.tex [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/background.tex [2] [3])
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/method.tex
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -356,143 +372,152 @@ Missing character: There is no ™ in font cmr10!
 File: flow1.pdf Graphic file (type pdf)
  <use flow1.pdf>
 Package pdftex.def Info: flow1.pdf used on input line 13.
-(pdftex.def)             Requested size: 216.81pt x 121.95656pt.
+(pdftex.def)             Requested size: 361.34999pt x 203.25887pt.
+
+Overfull \hbox (14.22646pt too wide) in paragraph at lines 13--14
+ [][] 
+ []
 
 <flow2.pdf, id=21, 722.7pt x 406.51875pt>
 File: flow2.pdf Graphic file (type pdf)
  <use flow2.pdf>
 Package pdftex.def Info: flow2.pdf used on input line 20.
-(pdftex.def)             Requested size: 216.81pt x 121.95656pt.
+(pdftex.def)             Requested size: 361.34999pt x 203.25887pt.
+
+Overfull \hbox (14.22646pt too wide) in paragraph at lines 20--21
+ [][] 
+ []
 
 <ImageRetrievalSystem.pdf, id=22, 963.6pt x 542.025pt>
 File: ImageRetrievalSystem.pdf Graphic file (type pdf)
 
 <use ImageRetrievalSystem.pdf>
 Package pdftex.def Info: ImageRetrievalSystem.pdf used on input line 32.
-(pdftex.def)             Requested size: 216.81pt x 121.95035pt.
+(pdftex.def)             Requested size: 289.07999pt x 162.60048pt.
 
 <process.pdf, id=23, 1438.84732pt x 713.12021pt>
 File: process.pdf Graphic file (type pdf)
  <use process.pdf>
 Package pdftex.def Info: process.pdf used on input line 39.
-(pdftex.def)             Requested size: 216.81pt x 107.45306pt.
- [4] [5 </home/tmbao/Sources/WR227/flow1.pdf> </home/tmbao/Sources/WR227/flow2.
-pdf
+(pdftex.def)             Requested size: 289.07999pt x 143.2635pt.
+ [4] [5 </home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photo
+s with Visual Instance Search/Paper/flow1.pdf> </home/tmbao/Dropbox/Papers/HCII
+ 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/flow
+2.pdf
 
-pdfTeX warning: pdflatex (file /home/tmbao/Sources/WR227/flow2.pdf): PDF inclus
-ion: multiple pdfs with page group included in a single page
-> </home/tmbao/Sources/WR227/ImageRetrievalSystem.pdf
+pdfTeX warning: pdflatex (file /home/tmbao/Dropbox/Papers/HCII 2016/Personalize
+d Annotation for Photos with Visual Instance Search/Paper/flow2.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] [6 </home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos 
+with Visual Instance Search/Paper/ImageRetrievalSystem.pdf> </home/tmbao/Dropbo
+x/Papers/HCII 2016/Personalized Annotation for Photos with Visual Instance Sear
+ch/Paper/process.pdf
 
-pdfTeX warning: pdflatex (file /home/tmbao/Sources/WR227/ImageRetrievalSystem.p
-df): PDF inclusion: multiple pdfs with page group included in a single page
->] [6 </home/tmbao/Sources/WR227/process.pdf>])
-(/home/tmbao/Sources/WR227/experiment_result.tex
-
-LaTeX Warning: Reference `fig:oxbuilding' on page 7 undefined on input line 3.
-
-
-LaTeX Warning: Reference `fig:oxbuilding_query' on page 7 undefined on input li
-ne 3.
-
-[7] <APCS_4.jpg, id=169, 310.15875pt x 206.7725pt>
+pdfTeX warning: pdflatex (file /home/tmbao/Dropbox/Papers/HCII 2016/Personalize
+d Annotation for Photos with Visual Instance Search/Paper/process.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>] [7])
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/experiment_result.tex [8]
+<APCS_4.jpg, id=172, 310.15875pt x 206.7725pt>
 File: APCS_4.jpg Graphic file (type jpg)
  <use APCS_4.jpg>
 Package pdftex.def Info: APCS_4.jpg used on input line 19.
 (pdftex.def)             Requested size: 115.63243pt x 77.0883pt.
 
-<APCS_2.jpg, id=170, 963.6pt x 642.4pt>
+<APCS_2.jpg, id=173, 963.6pt x 642.4pt>
 File: APCS_2.jpg Graphic file (type jpg)
  <use APCS_2.jpg>
 Package pdftex.def Info: APCS_2.jpg used on input line 20.
 (pdftex.def)             Requested size: 115.63243pt x 77.08467pt.
 
-<APCS_3.jpg, id=171, 963.6pt x 642.4pt>
+<APCS_3.jpg, id=174, 963.6pt x 642.4pt>
 File: APCS_3.jpg Graphic file (type jpg)
  <use APCS_3.jpg>
 Package pdftex.def Info: APCS_3.jpg used on input line 21.
 (pdftex.def)             Requested size: 115.63243pt x 77.08467pt.
 
-<singapore_2.jpg, id=172, 1850.112pt x 1387.584pt>
+<singapore_2.jpg, id=175, 1850.112pt x 1387.584pt>
 File: singapore_2.jpg Graphic file (type jpg)
  <use singapore_2.jpg>
 Package pdftex.def Info: singapore_2.jpg used on input line 28.
 (pdftex.def)             Requested size: 115.63243pt x 86.72379pt.
 
-<singapore_3.jpg, id=173, 1850.112pt x 1387.584pt>
+<singapore_3.jpg, id=176, 1850.112pt x 1387.584pt>
 File: singapore_3.jpg Graphic file (type jpg)
  <use singapore_3.jpg>
 Package pdftex.def Info: singapore_3.jpg used on input line 29.
 (pdftex.def)             Requested size: 115.63243pt x 86.72379pt.
 
-<singapore_4.jpg, id=174, 1850.112pt x 1387.584pt>
+<singapore_4.jpg, id=177, 1850.112pt x 1387.584pt>
 File: singapore_4.jpg Graphic file (type jpg)
  <use singapore_4.jpg>
 Package pdftex.def Info: singapore_4.jpg used on input line 30.
 (pdftex.def)             Requested size: 115.63243pt x 86.72379pt.
 
-<hoian_3.jpg, id=175, 308.352pt x 205.2468pt>
+<hoian_3.jpg, id=178, 308.352pt x 205.2468pt>
 File: hoian_3.jpg Graphic file (type jpg)
  <use hoian_3.jpg>
 Package pdftex.def Info: hoian_3.jpg used on input line 37.
 (pdftex.def)             Requested size: 115.63243pt x 76.96735pt.
 
-<hoian_7.jpg, id=176, 308.352pt x 205.2468pt>
+<hoian_7.jpg, id=179, 308.352pt x 205.2468pt>
 File: hoian_7.jpg Graphic file (type jpg)
  <use hoian_7.jpg>
 Package pdftex.def Info: hoian_7.jpg used on input line 38.
 (pdftex.def)             Requested size: 115.63243pt x 76.96735pt.
 
-<hoian_11.jpg, id=177, 308.352pt x 205.2468pt>
+<hoian_11.jpg, id=180, 308.352pt x 205.2468pt>
 File: hoian_11.jpg Graphic file (type jpg)
  <use hoian_11.jpg>
 Package pdftex.def Info: hoian_11.jpg used on input line 39.
 (pdftex.def)             Requested size: 115.63243pt x 76.96735pt.
 
-<icpc_1.jpg, id=178, 963.6pt x 642.4pt>
+<icpc_1.jpg, id=181, 963.6pt x 642.4pt>
 File: icpc_1.jpg Graphic file (type jpg)
  <use icpc_1.jpg>
 Package pdftex.def Info: icpc_1.jpg used on input line 46.
 (pdftex.def)             Requested size: 115.63243pt x 77.08467pt.
 
-<icpc_7.jpg, id=179, 963.6pt x 642.4pt>
+<icpc_7.jpg, id=182, 963.6pt x 642.4pt>
 File: icpc_7.jpg Graphic file (type jpg)
  <use icpc_7.jpg>
 Package pdftex.def Info: icpc_7.jpg used on input line 47.
 (pdftex.def)             Requested size: 115.63243pt x 77.08467pt.
 
-<icpc_8.jpg, id=180, 963.6pt x 642.4pt>
+<icpc_8.jpg, id=183, 963.6pt x 642.4pt>
 File: icpc_8.jpg Graphic file (type jpg)
  <use icpc_8.jpg>
 Package pdftex.def Info: icpc_8.jpg used on input line 48.
 (pdftex.def)             Requested size: 115.63243pt x 77.08467pt.
 
-<thailand_2.jpg, id=181, 722.7pt x 481.8pt>
+<thailand_2.jpg, id=184, 722.7pt x 481.8pt>
 File: thailand_2.jpg Graphic file (type jpg)
  <use thailand_2.jpg>
 Package pdftex.def Info: thailand_2.jpg used on input line 55.
 (pdftex.def)             Requested size: 115.63243pt x 77.08221pt.
 
-<thailand_3.jpg, id=182, 963.6pt x 642.4pt>
+<thailand_3.jpg, id=185, 963.6pt x 642.4pt>
 File: thailand_3.jpg Graphic file (type jpg)
  <use thailand_3.jpg>
 Package pdftex.def Info: thailand_3.jpg used on input line 56.
 (pdftex.def)             Requested size: 115.63243pt x 77.08467pt.
 
-<thailand_4.jpg, id=183, 722.7pt x 481.8pt>
+<thailand_4.jpg, id=186, 722.7pt x 481.8pt>
 File: thailand_4.jpg Graphic file (type jpg)
  <use thailand_4.jpg>
 Package pdftex.def Info: thailand_4.jpg used on input line 57.
 (pdftex.def)             Requested size: 115.63243pt x 77.08221pt.
 
 
-Package caption Warning: \label without proper \caption on input line 88.
+Package caption Warning: \label without proper \caption on input line 87.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:detail_result' on page 8 undefined on input line 
+LaTeX Warning: Reference `tab:detail_result' on page 9 undefined on input line 
 62.
 
-<APCS_check_0_query.png, id=184, 926.46124pt x 217.81375pt>
+<APCS_check_0_query.png, id=187, 926.46124pt x 217.81375pt>
 File: APCS_check_0_query.png Graphic file (type png)
 
 <use APCS_check_0_query.png>
@@ -503,28 +528,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 68.
 
-<Merlion_check_0_query.jpg, id=186, 1028.84375pt x 622.325pt>
+<Merlion_check_0_query.jpg, id=189, 1028.84375pt x 622.325pt>
 File: Merlion_check_0_query.jpg Graphic file (type jpg)
 
 <use Merlion_check_0_query.jpg>
 Package pdftex.def Info: Merlion_check_0_query.jpg used on input line 72.
 (pdftex.def)             Requested size: 108.405pt x 65.5692pt.
 
-<thailand_check_0_query.jpg, id=187, 722.7pt x 481.8pt>
+<thailand_check_0_query.jpg, id=190, 722.7pt x 481.8pt>
 File: thailand_check_0_query.jpg Graphic file (type jpg)
 
 <use thailand_check_0_query.jpg>
 Package pdftex.def Info: thailand_check_0_query.jpg used on input line 73.
 (pdftex.def)             Requested size: 108.405pt x 72.26688pt.
 
-<ACM_check_0_query.png, id=188, 263.98625pt x 211.79124pt>
+<ACM_check_0_query.png, id=191, 263.98625pt x 211.79124pt>
 File: ACM_check_0_query.png Graphic file (type png)
 
 <use ACM_check_0_query.png>
 Package pdftex.def Info: ACM_check_0_query.png used on input line 78.
 (pdftex.def)             Requested size: 101.17755pt x 81.17308pt.
 
-<Hoian_check_0_query.jpg, id=189, 308.352pt x 205.2468pt>
+<Hoian_check_0_query.jpg, id=192, 308.352pt x 205.2468pt>
 File: Hoian_check_0_query.jpg Graphic file (type jpg)
 
 <use Hoian_check_0_query.jpg>
@@ -534,19 +559,45 @@ Package pdftex.def Info: Hoian_check_0_query.jpg used on input line 79.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (/home/tmbao/Sources/WR227/conclusion.tex) [8 </home/tmbao/Sources/WR227/APCS
-_4.jpg> </home/tmbao/Sources/WR227/APCS_2.jpg> </home/tmbao/Sources/WR227/APCS_
-3.jpg>] [9 </home/tmbao/Sources/WR227/singapore_2.jpg> </home/tmbao/Sources/WR2
-27/singapore_3.jpg> </home/tmbao/Sources/WR227/singapore_4.jpg> </home/tmbao/So
-urces/WR227/hoian_3.jpg> </home/tmbao/Sources/WR227/hoian_7.jpg> </home/tmbao/S
-ources/WR227/hoian_11.jpg> </home/tmbao/Sources/WR227/icpc_1.jpg> </home/tmbao/
-Sources/WR227/icpc_7.jpg> </home/tmbao/Sources/WR227/icpc_8.jpg> </home/tmbao/S
-ources/WR227/thailand_2.jpg> </home/tmbao/Sources/WR227/thailand_3.jpg> </home/
-tmbao/Sources/WR227/thailand_4.jpg>] (/home/tmbao/Sources/WR227/WR227.bbl
-[10 </home/tmbao/Sources/WR227/APCS_check_0_query.png> </home/tmbao/Sources/WR2
-27/Merlion_check_0_query.jpg> </home/tmbao/Sources/WR227/thailand_check_0_query
-.jpg> </home/tmbao/Sources/WR227/ACM_check_0_query.png> </home/tmbao/Sources/WR
-227/Hoian_check_0_query.jpg>]
+)
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/conclusion.tex)
+Underfull \vbox (badness 1259) has occurred while \output is active []
+
+ [9 </home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos wi
+th Visual Instance Search/Paper/APCS_4.jpg> </home/tmbao/Dropbox/Papers/HCII 20
+16/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_2.
+jpg> </home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos w
+ith Visual Instance Search/Paper/APCS_3.jpg> </home/tmbao/Dropbox/Papers/HCII 2
+016/Personalized Annotation for Photos with Visual Instance Search/Paper/singap
+ore_2.jpg> </home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Ph
+otos with Visual Instance Search/Paper/singapore_3.jpg> </home/tmbao/Dropbox/Pa
+pers/HCII 2016/Personalized Annotation for Photos with Visual Instance Search/P
+aper/singapore_4.jpg>] [10 </home/tmbao/Dropbox/Papers/HCII 2016/Personalized A
+nnotation for Photos with Visual Instance Search/Paper/hoian_3.jpg> </home/tmba
+o/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Insta
+nce Search/Paper/hoian_7.jpg> </home/tmbao/Dropbox/Papers/HCII 2016/Personalize
+d Annotation for Photos with Visual Instance Search/Paper/hoian_11.jpg> </home/
+tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual I
+nstance Search/Paper/icpc_1.jpg> </home/tmbao/Dropbox/Papers/HCII 2016/Personal
+ized Annotation for Photos with Visual Instance Search/Paper/icpc_7.jpg> </home
+/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual 
+Instance Search/Paper/icpc_8.jpg> </home/tmbao/Dropbox/Papers/HCII 2016/Persona
+lized Annotation for Photos with Visual Instance Search/Paper/thailand_2.jpg> <
+/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Vi
+sual Instance Search/Paper/thailand_3.jpg> </home/tmbao/Dropbox/Papers/HCII 201
+6/Personalized Annotation for Photos with Visual Instance Search/Paper/thailand
+_4.jpg>]
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/WR227.bbl [11 </home/tmbao/Dropbox/Papers/HCII 2016
+/Personalized Annotation for Photos with Visual Instance Search/Paper/APCS_chec
+k_0_query.png> </home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation fo
+r Photos with Visual Instance Search/Paper/Merlion_check_0_query.jpg> </home/tm
+bao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with Visual Ins
+tance Search/Paper/thailand_check_0_query.jpg> </home/tmbao/Dropbox/Papers/HCII
+ 2016/Personalized Annotation for Photos with Visual Instance Search/Paper/ACM_
+check_0_query.png> </home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotatio
+n for Photos with Visual Instance Search/Paper/Hoian_check_0_query.jpg>]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¼ in font cmr9!
 
@@ -555,7 +606,9 @@ Underfull \hbox (badness 2460) in paragraph at lines 91--94
 206 (1983),
  []
 
-[11]) [12] (/home/tmbao/Sources/WR227/WR227.aux)
+[12]) [13]
+(/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation for Photos with V
+isual Instance Search/Paper/WR227.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -568,33 +621,35 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
  ) 
 Here is how much of TeX's memory you used:
  4205 strings out of 495000
- 64223 string characters out of 6181169
- 142083 words of memory out of 5000000
- 7358 multiletter control sequences out of 15000+600000
- 9943 words of font info for 35 fonts, out of 8000000 for 9000
+ 66846 string characters out of 6181169
+ 141086 words of memory out of 5000000
+ 7357 multiletter control sequences out of 15000+600000
+ 10251 words of font info for 36 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,8n,42p,1419b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,8n,42p,1292b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on /home/tmbao/Sources/WR227/WR227.pdf (12 pages, 16160847 bytes
-).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on "/home/tmbao/Dropbox/Papers/HCII 2016/Personalized Annotation
+ for Photos with Visual Instance Search/Paper/WR227.pdf" (13 pages, 16170759 by
+tes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
+ 270 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
