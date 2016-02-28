@@ -13,10 +13,10 @@ Since the problem of retrieving similar images in a collection corresponding to 
 Together with the exponential increasing of the number of uploaded images, the system faces lots of difficulty adapting those new images. Since re-training the codebook requires changing Bag-of-Words vectors of users' existing images and is also computationally expensive, the authors propose to use a fixed codebook trained with different types of features (e.g. vehicles, animals, buildings...) and use it universally. Because of the varieties of those different features, it is appropriate to compute and represent any new images' Bag-of-Words vectors without changing the codebook. Therefore, we trained our codebook on Oxford Building Dataset and use this codebook for our system.
 
 Our main contributions in this paper are as follows:
-\begin{enumerate}
-	\item[First] We propose the idea and realize the system that can recommend annotation for photos with visual instance search.
-	\item[Second] Our system allows recommended annotation to be personalized and to vary from user to user.
-	\item[Third] Our system is interactively user adaptive, i.e. the more a user annotates his/her photos via our system, the more accurate the recommended annotations are.
-\end{enumerate}
+\begin{itemize}
+	\item We propose the idea and realize the system that can recommend annotation for photos with visual instance search.
+	\item Our system allows recommended annotation to be personalized and to vary from user to user.
+	\item Our system is interactively user adaptive, i.e. the more a user annotates his/her photos via our system, the more accurate the recommended annotations are.
+\end{itemize}
 
 The rest of this paper is organized as follows. In section \ref{section:background_relatedworks}, we review the background and related works in image retrieval and image classification. Detailed steps of the automatic annotation system and how we use the BoW model is described in section \ref{section:proposed_system}. Section \ref{section:conclusion} contains our experiment result and conclusion.
