@@ -1,53 +1,10 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: WR227.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: WR227.aux
 The style file: splncs.bst
 Database file #1: refs.bib
 Warning--entry type for "oxbuilding" isn't style-file defined
---line 701 of file refs.bib
+--line 351 of file refs.bib
 A bad cross reference---entry "conf/bmvc/MatasCUP02"
 refers to entry "conf/bmvc/2002", which doesn't exist
 Warning--I didn't find a database entry for "conf/bmvc/2002"
 Warning--all relevant fields are empty in oxbuilding
-You've used 24 entries,
-            2785 wiz_defined-function locations,
-            735 strings with 8610 characters,
-and the built_in function-call counts, 13502 in all, are:
-= -- 1116
-> -- 381
-< -- 24
-+ -- 161
-- -- 132
-* -- 843
-:= -- 1708
-add.period$ -- 31
-call.type$ -- 24
-change.case$ -- 160
-chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 1221
-empty$ -- 1253
-format.name$ -- 155
-if$ -- 2991
-int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 238
-newline$ -- 77
-num.names$ -- 50
-pop$ -- 444
-preamble$ -- 1
-purify$ -- 113
-quote$ -- 0
-skip$ -- 382
-stack$ -- 0
-substring$ -- 801
-swap$ -- 666
-text.length$ -- 24
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 92
-warning$ -- 1
-while$ -- 101
-width$ -- 26
-write$ -- 237
 (There was 1 error message)
